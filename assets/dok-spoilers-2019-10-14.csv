@@ -1,0 +1,811 @@
+﻿"Name","House","Card Number","Raw Amber","Power","Armor","Anomaly","Reprint","Text","Aerc Score","Amber Control","Expected Amber","Aember Protection","Artifact Control","Creature Control","Effective Power","Efficiency","Disruption","House Cheating","Other"
+"Alaka","Brobnar","001","0","4","","","","If you used a creature to fight this turn, Alaka enters play ready.","1.3","0","0.5","0","0","0","4","0","0","0","0"
+"Alaka's Brew","Brobnar","002","1","","","","","Play: Give a creature two +1 power counters.","1","0","1","0","0","0","0","0","0","0","0"
+"Ballcano","Brobnar","003","0","","","","","Play: Deal 4 damage to each creature. Gain
+2 chains.","0.75","0","0","0","0","1.5","0","-0.75","0","0","0"
+"Barn Razing","Brobnar","004","0","","","","","Play: For the remainder of the turn, your opponent loses 1 aember each time a friendly
+​creature fights.","1","1","0","0","0","0","0","0","0","0","0"
+"Berserker Slam","Brobnar","005","1","","","","","Play: Deal 4 damage to a flank creature. If this damage destroys that creature, its controller loses 1 aember.","2.5","0.75","1","0","0","0.75","0","0","0","0","0"
+"Cowfyne","Brobnar","006","0","5","0","","true","Before Fight: Deal 2 damage to each neighbor of the creature Cowfyne fights.","0.4","0","0","0","0","0","0","0","0","0","0"
+"Ganger Chieftain","Brobnar","007","0","5","0","","true","Play: You may ready and fight with a neighboring creature.","0.4","0","0","0","0","0","0","0","0","0","0"
+"Groke","Brobnar","008","0","5","0","","true","Fight: Your opponent loses 1 aember.","0.4","0","0","0","0","0","0","0","0","0","0"
+"Gron Nine-Toes","Brobnar","009","0","5","0","","","Gron Nine-Toes gets +4 power while it is damaged. (Gron Nine-Toes gets the power bonus only if he survives the damage.)","1.1","0","0","0","0","0","7","0","0","0","0"
+"Irestaff","Brobnar","010","1","","","","","Action: Enrage a creature. Give that creature a +1 power counter.","1.7","0","1","0","0","0.5","2","0","0","0","0"
+"Mogghunter","Brobnar","011","0","6","","","","Fight: Deal 2 Damage to a flank creature.","1.5","0","0","0","0","0.5","6","0","0","0","0"
+"Narp","Brobnar","012","0","8","1","","","Narp's neighbors cannot reap.","0.8","0","-0.5","0","0","0","9","0","0","0","0"
+"Shorty","Brobnar","013","0","4","","","","Assault 4.
+Reap: Enrage Shorty.","1.2000000000000002","0","0","0","0","0","8","0","0","0","0"
+"Stilt-Kin","Brobnar","014","0","2","","","","Skirmish.
+After a Giant creature is played adjacent to Stilt-Kin, ready and fight with Stilt-Kin.","1.5499999999999998","0","0.25","0","0","0.5","4","0","0","0","0"
+"Tremor","Brobnar","015","0","","","","true","Play: Stun a creature and each of its neighbors.","0","0","0","0","0","0","0","0","0","0","0"
+"Warrior's Refrain","Brobnar","016","1","","","","","Play: Stun each creature with power 3 or lower.","2","0","1","0","0","1","0","0","0","0","0"
+"Blood Money","Brobnar","017","0","","","","true","Play: Place 2 aember from the common supply on an enemy creature.","0","0","0","0","0","0","0","0","0","0","0"
+"Flamethrower","Brobnar","018","0","","","","true","Action: Deal 1 damage to a creature, with 1 damage splash.","0","0","0","0","0","0","0","0","0","0","0"
+"Flamewake Shaman","Brobnar","019","0","4","0","","true","Play: Deal 2 damage to a creature.","0.4","0","0","0","0","0","0","0","0","0","0"
+"Fyre-Breath","Brobnar","020","1","","","","","This creature gets +3 power and gains, ""Before Fight: Deal 2 Damage to each neighbor of the creature this creature fights.""","2.05","0","1","0","0","0.75","3","0","0","0","0"
+"Gargantes Scrapper","Brobnar","021","0","3","0","","true","Play: If you have 3 aember or more, deal 3 damage to an enemy creature.","0.4","0","0","0","0","0","0","0","0","0","0"
+"Gravelguts","Brobnar","022","0","5","0","","","After an enemy creature is destroyed fighting Gravelguts, give Gravelguts
+​two +1 power counters.","1.1","0","0","0","0","0","7","0","0","0","0"
+"Little Rapscal","Brobnar","023","0","2","0","","true","Creatures must fight when used, if able.","0.4","0","0","0","0","0","0","0","0","0","0"
+"Ogopogo","Brobnar","024","0","6","0","","true","After Ogopogo attacks and destroys a creature, you may deal 2 damage to a 
+​creature.","0.4","0","0","0","0","0","0","0","0","0","0"
+"Overrun","Brobnar","025","1","","","","","Play: If 3 or more enemy creatures have been destroyed this turn, your opponent loses 2 aember.","1.75","0.75","1","0","0","0","0","0","0","0","0"
+"Power of Fire","Brobnar","026","0","","","","","Play: Sacrifice a friendly creature. If you do, each player loses aember equal to half that creature's power (rounding down the loss). Gain 1 chain.","0.8","2","-0.5","0","0","0","-2","-0.5","0","0","0"
+"Ragwarg","Brobnar","027","1","","","","","After a creature reaps, if it is the first time a creature reaped this turn, deal 2 damage to it.","1.25","0","1","0","0","0.25","0","0","0","0","0"
+"Shattered Throne","Brobnar","028","1","","","","","After a creature is used to fight, it captures 1 aember.","1.5","1","1","-0.5","0","0","0","0","0","0","0"
+"Skoll","Brobnar","029","0","3","","","","Assault 3.
+
+After an enemy creature is destroyed by Skoll's assault damage, give a friendly creature a +1 power counter.","1.1","0","0","0","0","0","7","0","0","0","0"
+"Slimy Jark","Brobnar","030","0","1","","","","Skirmish. Elusive.
+
+Fight: Enrage the creature Slimy Jark fights.","0.95","0","0","0","0","0.25","3","0","0","0","0"
+"Smith","Brobnar","031","1","","","","true","Play: Gain 2 aember if you control more creatures than your opponent.","1","0","1","0","0","0","0","0","0","0","0"
+"The Flex","Brobnar","032","0","","","","true","Play: Choose a ready friendly Brobnar creature. Exhaust it and gain aember equal to half its power
+​(rounding down the gain).","0","0","0","0","0","0","0","0","0","0","0"
+"Barehanded","Brobnar","033","1","","","","true","Play: Put each artifact on top of its owner’s deck.
+​","1","0","1","0","0","0","0","0","0","0","0"
+"Bellowing Patrizate","Brobnar","034","0","7","0","","true","While Bellowing Patrizate is ready, each creature takes 1 damage after it enters play.","0.4","0","0","0","0","0","0","0","0","0","0"
+"Cybergiant Rig","Brobnar","035","1","","","","true","This creature gains, “At the end of your turn, this creature loses a +1 power counter.” 
+​Play: Fully heal this creature and give it a 
+​+1 power counter for each damage healed","1","0","1","0","0","0","0","0","0","0","0"
+"Forgemaster Og","Brobnar","036","0","4","0","","true","After a player forges a key, they lose all of their remaining aember.","0.4","0","0","0","0","0","0","0","0","0","0"
+"Grumpus Tamer","Brobnar","037","0","4","0","","true","Reap: Search your deck and discard pile for a War Grumpus, reveal it, and add it
+​to your hand. Then, shuffle your deck.","0.4","0","0","0","0","0","0","0","0","0","0"
+"Guji Dinosaur Hunter","Brobnar","038","0","4","0","","","Elusive.
+
+Action: Deal 2 damage to a creature. Deal 6 damage instead of it is a Dinosaur creature or
+​has aember on it.","1.75","0","0","0.25","0","0.5","6","0","0","0","0"
+"Igon the Green","Brobnar","039","0","4","0","","","Destroyed: Purge Igon the Green. Return an Igon the Terrible from your discard pile to your hand.","0.8","0","0","0","0","0","4","0","0","0","0"
+"Iron Obelisk","Brobnar","040","0","","","","true","Your opponent’s keys cost +1 aember for each friendly damaged Brobnar creature.","0","0","0","0","0","0","0","0","0","0","0"
+"Kaloch Stonefather","Brobnar","041","0","6","0","","","While Kaloch Stonefather is in the center of your battleline, each friendly
+​creature gains skirmish.","1.5","0","0","0","0","0","11","0","0","0","0"
+"Lava Ball","Brobnar","042","0","","","","true","Play: Deal 4 damage to a creature with 2 damage splash.","0","0","0","0","0","0","0","0","0","0","0"
+"Mugwump","Brobnar","043","0","6","0","","true","After an enemy creature is destroyed fighting Mugwump, fully 
+​heal Mugwump and give it a +1
+​power counter.","0.4","0","0","0","0","0","0","0","0","0","0"
+"Nogi Smartfist","Brobnar","044","0","5","0","","","Fight: Draw 2 cards. Discard 2 random cards from your hand.","1.4","0","0","0","0","0","5","0.5","0","0","0"
+"Old Boomy","Brobnar","045","0","2","","","","Reap: Reveal cards from the top of your
+deck until you reveal a Brobnar card or 
+choose to stop. Deal 2 damage to Old Boomy
+if a Brobnar card was revealed. Archive 
+each card revealed this way.","1.5999999999999999","0","0","0","0","0","2","1","0","0","0"
+"Pile of Skulls","Brobnar","046","0","","","","true","Each time an enemy creature is destroyed during your turn, a friendly creature captures
+​1 aember.","0","0","0","0","0","0","0","0","0","0","0"
+"Ragnarok","Brobnar","047","0","","","","","Alpha.
+Play: For the remainder of the turn, creatures cannot reap and you gain 1 aember whenever a friendly creature fights. At the end of the turn, destroy each creature.","0.5","0","-0.5","0","0","1","0","0","0","0","0"
+"Rock-Hurling Giant","Brobnar","048","0","6","0","","true","During your turn, each time you discard a Brobnar card from your hand, you may 
+​deal 4 damage to a creature.","0.4","0","0","0","0","0","0","0","0","0","0"
+"Signal Fire","Brobnar","049","1","","","","true","Omni: Sacrifice Signal Fire. For the remainder of the turn, friendly Brobnar creatures may fight as 
+​though they belonged to the active house.","1","0","1","0","0","0","0","0","0","0","0"
+"The Big One","Brobnar","050","1","","","","","After a creature is played, put a fuse counter on The Big One. If there are 10 or more fuse counters on The Big One, destroy each creature and artifact.","2","0","1","0","0","1","0","0","0","0","0"
+"The Floor is Lava","Brobnar","051","1","","","","","At the start of your turn, deal 1 damage to a friendly creature and deal 1 damage to an
+​enemy creature.","2.5","0","1","0","0","1.5","0","0","0","0","0"
+"War Grumpus","Brobnar","052","0","3","0","","true","Fight/Reap: Ready and fight with a neighboring Giant.","0.4","0","0","0","0","0","0","0","0","0","0"
+"Igon the Terrible","Brobnar","053","0","8","0","","","Play: If Igon the Green has not been purged, destroy Igon the Terrible.
+​Fight: Steal 1 aember.","2.7","1","1","0","0","0","8","-0.5","0","0","0"
+"Mega Alaka","Brobnar","054","0","6","0","","","If you have used a creature to fight this turn, Mega Alaka enters play ready.","1.5","0","0.5","0","0","0","6","0","0","0","0"
+"Mega Cowfyne","Brobnar","055","0","7","0","","","Before Fight: Deal 2 damage to each neighbor of the creature Mega Cowfyne fights.","1.8499999999999999","0","0","0","0","0.75","7","0","0","0","0"
+"Mega Ganger Chieftain","Brobnar","056","0","7","0","","","Play: You may ready and fight with a neighboring creature.","2.0999999999999996","0","0","0","0","0.5","7","0","0","0.5","0"
+"Mega Groke","Brobnar","057","0","7","0","","","Fight: Your opponent loses 1 aember.","1.8499999999999999","0.75","0","0","0","0","7","0","0","0","0"
+"Mega Gron Nine-Toes","Brobnar","058","0","7","","","","Mega Gron Nine-Toes gets +4 power while he is damaged. (He gets the power bonus only if he survives the damage.)","1.4","0","0","0","0","0","10","0","0","0","0"
+"Mega Mogghunter","Brobnar","059","0","8","0","","","Fight: Deal 2 damage to a flank creature.","1.7000000000000002","0","0","0","0","0.5","8","0","0","0","0"
+"Mega Narp","Brobnar","060","0","10","1","","","Narp's neighbors cannot reap.","0.7500000000000001","0","-0.75","0","0","0","11","0","0","0","0"
+"Mega Shorty","Brobnar","061","0","6","","","","Assault 4.
+
+Reap: Enrage Shorty.","1.4","0","0","0","0","0","10","0","0","0","0"
+"Chieftain's Brew","Brobnar","062","1","","","","","Play: Give a creature two +1 power counters.","1.2","0","1","0","0","0","2","0","0","0","0"
+"Cowfyne's Brew","Brobnar","063","1","","","","","Play: Give a creature two +1 power counters.","1.2","0","1","0","0","0","2","0","0","0","0"
+"Groke's Brew","Brobnar","064","1","","","","","Play: Give a creature two +1 power counters.","1.2","0","1","0","0","0","2","0","0","0","0"
+"Gron's Brew","Brobnar","065","1","","","","","Play: Give a creature two +1 power counters.","1.2","0","1","0","0","0","2","0","0","0","0"
+"Mogghunter's Brew","Brobnar","066","1","","","","","Play: Give a creature two +1 power counters.","1.2","0","1","0","0","0","2","0","0","0","0"
+"Narp's Brew","Brobnar","067","1","","","","","Play: Give a creature two +1 power counters.","1.2","0","1","0","0","0","2","0","0","0","0"
+"Shorty's Brew","Brobnar","068","1","","","","","Play: Give a creature two +1 power counters.","1.2","0","1","0","0","0","2","0","0","0","0"
+"Binding Irons","Dis","069","0","","","","true","Play: Your opponent gains 3 chains.","0","0","0","0","0","0","0","0","0","0","0"
+"Buzzle","Dis","070","0","3","","","","Skirmish.
+Play/Fight: You may purge one of Buzzle's neightbors. If you do, ready Buzzle.","1.4","0","0.5","0","0","0","5","0","0","0","0"
+"Dendrix","Dis","071","0","5","","","","Fight: Your opponent discards a random card from their hand.","1.4","0","0","0","0","0","5","0","0.5","0","0"
+"Draining Touch","Dis","072","0","","","","","Play: Destroy a creature with no aember on it.","1","0","0","0","0","1","0","0","0","0","0"
+"Etaromme","Dis","073","0","4","","","","Reap: Destroy a creature of the house with the most creatures in play.","1.5499999999999998","0","0","0","0","0.75","4","0","0","0","0"
+"Exhume","Dis","074","1","","","","true","Play: Choose a creature in your discard pile. You may play that creature as if it 
+​belonged to the active house and was
+​in your hand.","1","0","1","0","0","0","0","0","0","0","0"
+"Festering Touch","Dis","075","1","","","","","Play: Choose up to 2 creatures. Deal 1 damage to each chosen creature. If that creature was already damaged, deal 3 damage instead.","2","0","1","0","0","1","0","0","0","0","0"
+"Harbringer of Doom","Dis","076","0","2","3","","","Destroyed: Destroy each creature.","0.9","0","0","0","0","0","5","0","0","0","0"
+"Impspector","Dis","077","0","2","","","","Destroyed: Purge a random card from your opponent's hand.","0.4","0","0","0","0","0","0","0","0","0","0"
+"Infurnace","Dis","078","0","4","","","","Play: Purge up to 2 cards from a discard pile. Your opponent loses aember equal to the total aember bonus of the purged cards.","3.05","2","0","0","0","0","4","0","0.25","0","0"
+"Lilithal","Dis","079","0","5","","","","Fight / Reap: Capture 1 aember.","1.4","0.5","0","0","0","0","5","0","0","0","0"
+"Malison","Dis","080","0","5","","","","Fight: You may move an enemy creature anywhere in its controller's battleline. Then, if it is on a flank, it captures 1 aember from its own side.","1.65","0.5","0.25","0","0","0","5","0","0","0","0"
+"Misery Exploit","Dis","081","0","","","","true","Play: Gain 1 aember for each damaged enemy creature.","0","0","0","0","0","0","0","0","0","0","0"
+"Not Finished with You","Dis","082","1","","","","true","Play: Shuffle any number of creatures from your discard pile into your deck.","1","0","1","0","0","0","0","0","0","0","0"
+"Rotgrub","Dis","083","0","1","","","","Play: Your opponent loses 1 aember.
+
+Reap: Archive Rotgrub.","1.75","1","0","0","0","0","1","0.25","0","0","0"
+"The Evil Eye","Dis","084","1","","","","","Play: Keys cost +3 aember during your opponent's next turn.","2.5","1.5","1","0","0","0","0","0","0","0","0"
+"Bloodshard Imp","Dis","085","0","2","0","","true","After a creature reaps, its controller must sacrifice it.","0.4","0","0","0","0","0","0","0","0","0","0"
+"Borr Nit","Dis","086","0","3","","","","Reap: Reveal the top 5 cards of a player's deck. Purge a card revealed this way. Shuffle the other revealed cards into that deck.","1.2","0","0","0","0","0","3","0.25","0.25","0","0"
+"Borr Nit's Touch","Dis","087","1","","","","","Play: Reveal the top 5 cards of a player's deck. Purge a card revealed this way.
+​Shuffle the other revealed cards into that deck.","1.75","0","1","0","0","0","0","0.25","0.5","0","0"
+"E'e on the Fringes","Dis","088","0","1","","","","Elusive.
+
+During your turn, after you discard a Dis card from your hand, you may purge a Dis card from a discard pile. If you do, steal 1 aember.","1.5","0.5","0.5","0","0","0","1","0","0","0","0"
+"Giants' Bane","Dis","089","1","","","","","Play: Destroy a Giant creature.","1.25","0","1","0","0","0.25","0","0","0","0","0"
+"Gleeful Mayhem","Dis","090","1","","","","","Play: For each house, deal 5 damage to a creature of that house.","3","0","1","0","0","2","0","0","0","0","0"
+"Hysteria","Dis","091","0","","","","true","Play: Return each creature to its owner’s hand.
+​","0","0","0","0","0","0","0","0","0","0","0"
+"Library of the Damned","Dis","092","0","","","","true","Action: Archive a card.","0","0","0","0","0","0","0","0","0","0","0"
+"Obsidian Forge","Dis","093","1","","","","","Action: Sacrifice any number of friendly creatures. Then, you may forge a key at
+​+6 aember current cost, reduced by 1 aember for
+​each creature sacrificed this way. If you 
+​do, destroy Obsidian Forge.","1.5","0","1","0.5","0","0","0","0","0","0","0"
+"Poltergeist","Dis","094","1","","","","true","Play: Use an artifact controlled by any player as if it were yours. Destroy
+​that artifact.","1","0","1","0","0","0","0","0","0","0","0"
+"Skullion","Dis","095","0","7","2","","true","Play: Sacrifice a friendly creature.","0.4","0","0","0","0","0","0","0","0","0","0"
+"Snag","Dis","096","0","5","","","","Fight: Your opponent must choose the house of the creature Snag fights as their active house on their next turn.","2.15","0","0","0.5","0","0","5","0","0.75","0","0"
+"Soul Fiddle","Dis","097","0","","","","","Action: Enrage a creature.","0.25","0.25","0","0","0","0","0","0","0","0","0"
+"Soulkeeper","Dis","098","1","","","","true","This creature gains, ""Destroyed: Destroy the most powerful enemy
+​creature.""","1","0","1","0","0","0","0","0","0","0","0"
+"Spyyyder","Dis","099","0","2","0","","true","Spyyyder gains poison while attacking an enemy flank creature.","0.4","0","0","0","0","0","0","0","0","0","0"
+"Three Fates","Dis","100","1","","","","true","Play: Destroy the 3 most powerful creatures.","1","0","1","0","0","0","0","0","0","0","0"
+"A Fair Game","Dis","101","0","","","","true","Play: Discard the top card of your opponent’s deck and reveal their hand. You gain 1 aember
+​ for each card of the discarded card’s house 
+​revealed this way. Your opponent repeats the 
+​preceding effect on you.","0","0","0","0","0","0","0","0","0","0","0"
+"Collar of Subordination","Dis","102","0","","","","true","You control this creature.","0","0","0","0","0","0","0","0","0","0","0"
+"Creeping Oblivion","Dis","103","1","","","","true","Play: Purge up to 2 cards from a discard pile.","1","0","1","0","0","0","0","0","0","0","0"
+"Eater of the Dead","Dis","104","0","4","0","","true","Fight/Reap: Purge a creature from a discard pile. If you do, put a +1 power counter on 
+​Eater of the Dead.","0.4","0","0","0","0","0","0","0","0","0","0"
+"Greater Oxtet","Dis","105","0","4","","","","Taunt.
+At the end of your ""ready cards"" step, purge a card from your hand. If you do, give Greater Oxlet two +1 power counters.","3.7","0","0","0","0","0","8","2.5","0","0","0"
+"Harvest Time","Dis","106","0","","","","","Play: Choose a trait. Purge each card with that trait.  Each player gains 1 aember
+​for each card they controlled that was
+​purged this way.","1","0","1","0","0","0","0","0","0","0","0"
+"Hecatomb","Dis","107","1","","","","true","Play: Destroy each Dis creature. Each player gains 1 aember for each creature they 
+​controlled that was destroyed this way.","0","0","0","0","0","0","0","0","0","0","0"
+"Key to Dis","Dis","108","0","","","","true","Omni: Sacrifice Key to Dis. Destroy each creature.","0","0","0","0","0","0","0","0","0","0","0"
+"Lesser Oxtet","Dis","109","0","3","0","","","Elusive.
+
+Play: Purge each card in your hand. Reap: Keys cost +3 aember during your
+​opponent's next turn.","2.4","1","0","0","0","0","5","0.5","0","0","0"
+"Lord Invidius","Dis","110","0","5","","","","Elusive.
+
+While Lord Invidius is in the center of your battleline, it gains, ""Reap: Take Control of an enemy flank creature and exhaust it. While under your control, it belongs to house Dis.""","2.3499999999999996","0","0","0","0","0.75","7","0.5","0","0","0"
+"Neffru","Dis","111","0","4","0","","true","Each time a creature is destroyed, its owner gains 1 aember.","0.4","0","0","0","0","0","0","0","0","0","0"
+"Noname","Dis","112","0","1","0","","","Noname gets +1 power for each purged card.
+​Play/Fight/Reap: Purge a card in a 
+​discard pile.","1.2","0","0","0","0","0","3","0.25","0.25","0","0"
+"Onyx Knight","Dis","113","0","4","0","","true","Play: Destroy each creature with odd power.","0.4","0","0","0","0","0","0","0","0","0","0"
+"Orb of Invidius","Dis","114","0","","","","true","After a creature reaps, stun it.","0","0","0","0","0","0","0","0","0","0","0"
+"Ortannu the Chained","Dis","115","0","7","0","","true","Reap: Return each copy of Ortannu’s Binding from your discard pile to your hand. For each 
+​one returned this way, deal 2 damage to a creature, 
+​with 2 damage splash.","0.4","0","0","0","0","0","0","0","0","0","0"
+"Sinestra","Dis","116","0","5","0","","","After your opponent plays a creature on their left flank, they lose 1 aember.","1.9","1","0","0","0","0","5","0","0","0","0"
+"Snag's Mirror","Dis","117","1","","","","","After a player chooses an active house, their opponent cannot choose the same house as their active house on their next turn.","1","0","1","0","0","0","0","0","0","0","0"
+"Snaglet","Dis","118","0","2","0","","","Elusive.
+Action: Choose a house. If your opponent chooses that house as their active house on their next turn, steal 2 aember.","1.05","0","0","0","0","0","4","0","0.25","0","0"
+"Soul Snatcher","Dis","119","0","","","","true","Each time a creature is destroyed, its owner gains 1 aember.","0","0","0","0","0","0","0","0","0","0","0"
+"Wretched Doll","Dis","120","0","","","","true","Action: If there is a doom counter in play, destroy all creatures with doom
+​counters. Otherwise, put a doom
+​counter on a creature.","0","0","0","0","0","0","0","0","0","0","0"
+"Ortannu's Binding","Dis","121","1","","","","true","Play: Deal 2 damage to a friendly creature.","0","0","0","0","0","0","0","0","0","0","0"
+"Beasts' Bane","Dis","122","1","","","","","Play: Destroy a Beast creature.","1.25","0","1","0","0","0.25","0","0","0","0","0"
+"Demon's Bane","Dis","123","1","","","","","Play: Destroy a demon creature.","1","0","1","0","0","0","0","0","0","0","0"
+"Dexus","Dis","124","0","5","0","","","After your opponent plays a creature on their right flank, they lose 1 aember.","1.9","1","0","0","0","0","5","0","0","0","0"
+"Dinosaurs' Bane","Dis","125","1","","","","","Play: Destroy a Dinosaur creature.","1.25","0","1","0","0","0.25","0","0","0","0","0"
+"Humans' Bane","Dis","126","1","","","","","Play: Destroy a Human creature.","1.25","0","1","0","0","0.25","0","0","0","0","0"
+"Scientists' Bane","Dis","127","1","","","","","Play: Destroy a Scientist creature.","1.25","0","1","0","0","0.25","0","0","0","0","0"
+"Thieves' Bane","Dis","128","1","","","","","Play: Destroy a Thief creature.","1.25","0","1","0","0","0.25","0","0","0","0","0"
+"Babbling Bibliophile","Logos","129","0","1","","","","Reap: Draw 2 cards.","1","0","0","0","0","0","1","0.5","0","0","0"
+"Cutthroat Research","Logos","130","1","","","","true","Play: Steal 2 aember if your opponent has 8 aember or more.","0","0","0","0","0","0","0","0","0","0","0"
+"Daughter","Logos","131","0","2","","","","Elusive.
+
+During your ""draw cards"" step, refill your hand to 1 additional card.","2.8","0","0","0","0","0","4","2","0","0","0"
+"EDAI "Eddie" 4x4","Logos","132","0","3","","","","Play: Archive a card.
+
+Your opponent's keys cost +1 aember for each card in your archives.","3.1999999999999997","1","0","0","0","0","3","1.5","0","0","0"
+"Eyegor","Logos","133","0","2","0","","true","Play: Look at the top 3 cards of your deck. Add 1 to your hand and discard
+​the others.","0.4","0","0","0","0","0","0","0","0","0","0"
+"Hapsis","Logos","134","0","5","","","","After an enemy creature is destroyed fighting Hapsis, ward Hapsis and draw a card.","1.6","0","0","0","0","0","12","0","0","0","0"
+"Hologrammophone","Logos","135","1","","","","","Action: Ward a creature.","1.5","0","1","0","0","0","5","0","0","0","0"
+"Information Exchange","Logos","136","0","","","","","Play: Steal 1 aember. If you opponent stole aember from you on your previous turn, steal 2 aember instead.","2.5","1.25","1.25","0","0","0","0","0","0","0","0"
+"Quant","Logos","137","0","3","","","","Reap: You may play one non-Logos action card this turn.","1.2","0","0","0","0","0","3","0.5","0","0","0"
+"Sanitation Engineer","Logos","138","0","4","","","","Hazardous 1.
+
+Reap: Discard a card from your hand.","1.4","0","0","0","0","0","5","0.5","0","0","0"
+"Tautau Vapors","Logos","139","0","","","","","Play: Draw 2 cards. Archive a card.","2.5","0","0","0","0","0","0","2.5","0","0","0"
+"Thorium Plasmate","Logos","140","1","","","","","Play: Move an enemy creature anywhere in its controller's battleline. Deal 2 damage to that creature for each of its neighbors that shares a house with it.","2","0","1","0","0","1","0","0","0","0","0"
+"Titan Guardian","Logos","141","0","5","1","","","Taunt.
+
+Destroyed: If Titan Guardian is not on a flank, draw 2 cards.","2.2","0","0","0","0","0","8","1","0","0","0"
+"Twin Bolt Emission","Logos","142","1","","","","true","Play: Deal 2 damage to a creature and deal 2 damage to a different creature.","0","0","0","0","0","0","0","0","0","0","0"
+"Wild Wormhole","Logos","143","1","","","","true","Play: Play the top card of your deck.","0","0","0","0","0","0","0","0","0","0","0"
+"Wormhole Technician","Logos","144","0","3","","","","Reap: Reveal the top card of your deck. If it is a Logos card, play it. Otherwise archive it.","1.7","0","0","0","0","0","3","1","0","0","0"
+"Anomaly Exploiter","Logos","145","0","","","","true","Action: Destroy a damaged creature.","0","0","0","0","0","0","0","0","0","0","0"
+"C.AE.N.D.L.E. Unit","Logos","146","0","5","1","","","After an enemy creature reaps, draw a card.
+
+Action: Capture 1 aember.","3.5","0.5","0","0","0","0","6","2","0","0","0"
+"Code Monkey","Logos","147","0","3","","","","Deploy.
+
+Play: Archive each neighboring creature. If those creatures share a house, gain 2 aember.","2.1999999999999997","0","1","0","0","0","3","0.5","0","0","0"
+"Data Forge","Logos","148","1","","","","","Play: You may forge a key at +10 current cost, reduced by 1 aember for each card in hand.","2","0","1","1","0","0","0","0","0","0","0"
+"Discombobulator","Logos","149","1","","","","","This creature gains, ""Your aember cannot be stolen.""","2","0","1","1","0","0","0","0","0","0","0"
+"Dr. Milli","Logos","150","0","2","","","","Play: For each creature your opponent controls in excess of you, not counting Dr. Milli, archive a card.","2.6","0","0","0","0","0","2","2","0","0","0"
+"Groupthink Tank","Logos","151","0","4","3","","","Action: Deal 4 damage to each creature that shares a house with at least 1 of its neighbors.","2.0999999999999996","0","0","0","0","1","7","0","0","0","0"
+"Interdimensional Graft","Logos","152","1","","","","true","Play: If an opponent forges a key on their next turn, they must give you 
+​their remaining aember.","0","0","0","0","0","0","0","0","0","0","0"
+"Jargogle","Logos","153","0","2","0","","true","Play: Put a card from your hand facedown under Jargogle.
+​Destroyed: If it is your turn, play the card
+​under Jargogle; otherwise, archive that card.","0.4","0","0","0","0","0","0","0","0","0","0"
+"Memory Chip","Logos","154","0","","","","true","After you choose Logos as your active house, archive a card.","0","0","0","0","0","0","0","0","0","0","0"
+"Mini Groupthink Tank","Logos","155","0","3","2","","","Play/Fight/Reap: Deal 8 damage to a creature that shares a house with 2 of its neighbors.","1.4","0","0","0","0","0.5","5","0","0","0","0"
+"Positron Bolt","Logos","156","1","","","","true","Play: Deal 3 damage to a flank creature. Deal 2 damage to its neighbor. Deal 1 damage to the 
+​second creature's other neighbor.","0","0","0","0","0","0","0","0","0","0","0"
+"Quantum Fingertrap","Logos","157","1","","","","true","Action: Swap the positions of two creatures in a battleline.","0","0","0","0","0","0","0","0","0","0","0"
+"Reasembling Automaton","Logos","158","0","3","","","","Destroyed: If you have any other creatures in play, instead of destroying Reassembling Automaton, fully heal it, exhaust it, then move it to a flank.","1.2000000000000002","0","0","0","0","0","8","0","0","0","0"
+"Remote Access","Logos","159","1","","","","true","Play: Use an opponent's artifact as if it were yours.","0","0","0","0","0","0","0","0","0","0","0"
+"Seismo-Entangler","Logos","160","0","","","","true","Action: Choose a house. During your opponent's next turn, creatures of the
+​chosen house cannot be used to reap.","0","0","0","0","0","0","0","0","0","0","0"
+"Academy Training","Logos","161","0","","","","","If you control this creature, it belongs to house Logos. 
+
+This creature gains, ""Reap: Draw a card.""","0.75","0","0","0","0","0","0","0.5","0","0.25","0"
+"Chaos Portal","Logos","162","0","","","","true","Action: Choose a house. Reveal the top card of your deck. If it is of that house, play it.","0","0","0","0","0","0","0","0","0","0","0"
+"Crazy Killing Machine","Logos","163","0","","","","true","Action: Discard the top card of each player's deck. For each of those cards,
+​destroy a creature or artifact of that
+​card's house, if able. If 2 cards are not 
+​destroyed as a result of this, destroy
+​Crazy Killing Machine.","0","0","0","0","0","0","0","0","0","0","0"
+"Dysania","Logos","164","0","4","0","","true","Play: Your opponent discards each of their archived cards. You gain 1 aember for
+​each card discarded this way.","0.4","0","0","0","0","0","0","0","0","0","0"
+"Entropic Swirl","Logos","165","0","","","","true","Play: Choose a creature. For each trait that creature has, deal it 2 damage and
+​gain 1 aember.","0","0","0","0","0","0","0","0","0","0","0"
+"Fetchdrones","Logos","166","0","","","","true","Action: Discard the top 2 cards of your deck. For each Logos card 
+​discarded this way, a friendly creature
+​captures 2 aember.","0","0","0","0","0","0","0","0","0","0","0"
+"Hyde","Logos","167","0","4","","","","Reap: Draw a card. If you control Velum, draw 2 cards instead.
+
+Destroyed: Archive Velum from your discard pile. If you do, archive Hyde.","2.3","0","0","0","0","0","4","1.5","0","0","0"
+"Knowledge is Power","Logos","168","0","","","","true","Play: Choose one: Archive a card, or, for each archived card you have, gain 1 aember.","0","0","0","0","0","0","0","0","0","0","0"
+"Master the Theory","Logos","169","1","","","","true","Play: If there are no friendly creatures in play, you may archive a card for each
+​enemy creature.","0","0","0","0","0","0","0","0","0","0","0"
+"Mimic Gel","Logos","170","0","0","","","","Mimic Gel cannot be played unless there is another creature in play. Mimic Gel enters play as a copy of another creature in play, except it belongs to house Logos.","1.7","0","0","0","0","0","3","0","0","0","1"
+"Neutron Shark","Logos","171","0","1","0","","true","Play/Fight/Reap: Destroy an enemy creature or artifact and a friendly creature or artifact. Discard 
+​the top card of your deck. If that card is not a 
+​Logos card, trigger this effect again.","0.4","0","0","0","0","0","0","0","0","0","0"
+"Pocket Universe","Logos","172","0","","","","true","You may spend aember on Pocket Universe when forging keys. 
+​Action: Move 1 aember from your pool to Pocket 
+​Universe.","0","0","0","0","0","0","0","0","0","0","0"
+"Prescriptive Grammarbot","Logos","173","0","3","","","","Taunt: Hazardous 3.
+
+Reap: Enrage a creature.","1.7000000000000002","0","0","0","0","0.5","8","0","0","0","0"
+"Replicator","Logos","174","0","2","0","","true","Reap: Trigger the reap effect of another creature in play as if you controlled 
+​that creature. (That creature does not
+​exhaust.)","0.4","0","0","0","0","0","0","0","0","0","0"
+"Scientifical Hack","Logos","175","1","","","","true","Omni: Sacrifice Scientifical Hack. For the remainder of the turn, you may use 
+​friendly artifacts as if they belonged to 
+​the active house.","0","0","0","0","0","0","0","0","0","0","0"
+"Self-Bolstering Automata","Logos","176","0","1","","","","Destroyed: If you have any other
+creatures in play, instead of destroying
+Self-Bolstering Automata, fully heal it,
+exhaust it, and move it to a flank.
+If you do, give it two +1 power counters.","0.9","0","0","0","0","0","5","0","0","0","0"
+"Strange Gizmo","Logos","177","1","","","","true","After you forge a key, destroy each creature and artifact.","0","0","0","0","0","0","0","0","0","0","0"
+"Universal Keylock","Logos","178","1","","","","","Keys cost +3 aember.
+
+After a player forges a key, destroy Universal Keylock.","3","2","1","0","0","0","0","0","0","0","0"
+"Universal Recycle Bin","Logos","179","1","","","","","Action: Archive a purged card you own.","1.5","0","1","0","0","0","0","0.5","0","0","0"
+"Zenzizenzizenzic","Logos","180","0","4","2","","","During your ""draw cards"" step, if Zenzizenzizenzic is in the center of your battleline, refill your hand to 2 additional cards.","3","0","0","0","0","0","6","2","0","0","0"
+"Velum","Logos","181","0","2","","","","Reap: Archive a card. If you control Hyde, archive 2 cards instead.
+
+Destroyed: Archive Hyde from your discard pile. If you do, archive Velum.","2.6","0","0","0","0","0","2","2","0","0","0"
+"Axiom of Grisk","SaurianRepublic","182","0","","","","","Play: Ward a creature. Destroy each creature with no aember on it. Gain 2 chains.","2.5","0","0","0","0","3","0","-0.5","0","0","0"
+"Brutodon Auxillary","SaurianRepublic","183","0","6","","","","Taunt. Hazardous 2.","1.4","0","0","0","0","0","10","0","0","0","0"
+"Chant of Hubris","SaurianRepublic","184","1","","","","","Play: Move 1 aember from a creature to another creature.","2.5","0.75","1.75","0","0","0","0","0","0","0","0"
+"Imperial Scutum","SaurianRepublic","185","1","","","","","This creature gets +2 armor and gains, ""Destroyed: Move each aember on this creature to the common supply.""","2.2","1","1","0","0","0","2","0","0","0","0"
+"Imperium","SaurianRepublic","186","1","","","","","Play: Ward 2 friendly creatures.","1.8","0","1","0","0","0","8","0","0","0","0"
+"Legatus Raptor","SaurianRepublic","187","0","4","1","","","Fight: You may exalt Legatus Raptor. If you do, ready and use another friendly creature.","1.4","0","0","0","0","0","5","0","0","0.5","0"
+"Odoac the Patrician","SaurianRepublic","188","0","5","0","","","Play: Capture 1 aember. While Odoac the Patrician has aember on it,
+​your aember cannot be stolen.","2.4","0.5","0","1","0","0","5","0","0","0","0"
+"Phalanx Strike","SaurianRepublic","189","1","","","","","Play: Choose a creature. Deal 1 damage to it for each friendly creature. You may 
+​exalt a friendly creature to repeat the 
+​preceding effect.","2.25","0","1","0","0","1.25","0","0","0","0","0"
+"Praefectus Ludo","SaurianRepublic","190","0","5","0","","","Each other friendly creature gains, ""Destroyed: Move each aember on this
+​creature to the common supply.""","2.4","1.5","0","0","0","0","5","0","0","0","0"
+"Questor Jarta","SaurianRepublic","191","0","3","0","","","Elusive.
+
+Reap: You may exalt Questor Jarta. If you do, gain 1 aember.","1.2","0","0.5","0","0","0","3","0","0","0","0"
+"Rhetor Gallim","SaurianRepublic","192","0","3","0","","","Play: Your opponent's keys cost +3 aember during their next turn.
+​Reap: You may exalt Rhetor Gallim. If
+​you do, your opponent's keys cost +3 aember
+​during their next turn.","2.6999999999999997","2","0","0","0","0","3","0","0","0","0"
+"Senator Shrix","SaurianRepublic","193","0","4","1","","","You may spend aember on Senator Shrix as if it were in your pool.
+​Play/Reap: You may exalt Senator Shrix.","1.9","0","1","0","0","0","5","0","0","0","0"
+"The Golden Spiral","SaurianRepublic","194","0","","","","","Action: Exalt a friendly creature. Ready and use that creature.","1","-0.25","1","0","0","0","0","0","0","0.25","0"
+"Thero Centurion","SaurianRepublic","195","0","6","1","","","Play/Fight: Capture 1 aember.","2.0999999999999996","1","0","0","0","0","7","0","0","0","0"
+"Tribute","SaurianRepublic","196","1","","","","","Play: The most powerful friendly creature captures 2 aember. You may
+​exalt that creature to repeat the
+​preceding effect.","2.5","1.5","1","0","0","0","0","0","0","0","0"
+"Tricerian Legionary","SaurianRepublic","197","0","5","1","","","Taunt.
+
+Play: Ward a friendly creature.","1.9","0","0","0","0","0","15","0","0","0","0"
+"Ancient Power","SaurianRepublic","198","1","","","","","Play: Ward each friendly creature with aember on it.","1.5","0","1","0","0","0","5","0","0","0","0"
+"Centurion Stenopius","SaurianRepublic","199","0","3","2","","","Centurion Stenopius gets +3 power for each aember on it. 
+
+Play/Fight/Reap: You may exault Centurion Stenopius.","1.4","0","0","0","0","0","10","0","0","0","0"
+"City-State Interest","SaurianRepublic","200","0","","","","","Play: Each friendly creature captures 1 aember.","2.5","2.5","0","0","0","0","0","0","0","0","0"
+"Draco Praeco","SaurianRepublic","201","0","4","0","","","Reap: You may exalt Draco Praeco. If you do, choose a house. Enrage each 
+​creature of that house.","1.3","0","0","0","0","0.5","4","0","0","0","0"
+"Exile","SaurianRepublic","202","1","","","","","Play: Give control of a friendly creature to your opponent.","1.5","1","1","0","0","0","-5","0","0","0","0"
+"Gargantodon","SaurianRepublic","203","0","16","0","","","Gargantodon enters play stunned. Gargantodon only deals 4 damage when fighting.
+​Each aember that would be stolen is captured
+​by a creature controlled by the active
+​player instead.","3.4","0","0","2","0","0","10","0","0","0","0"
+"Library of Polliasaurus","SaurianRepublic","204","0","","","","","Action: Move 1 aember from a friendly creature to your pool.","2","1","1","0","0","0","0","0","0","0","0"
+"Orator Hissaro","SaurianRepublic","205","0","3","0","","","Deploy.
+
+Play: Ready and exalt each of Orator Hissaro's neighbors. For the
+​remainder of the turn, they belong to
+​house Saurian.","2.6999999999999997","-1","2","0","0","0","3","0","0","1","0"
+"Paraguardian","SaurianRepublic","206","0","6","1","","","Reap: You may exalt Paraguardian. If you do, ward each of its neighbors.","1.6","0","0","0","0","0","12","0","0","0","0"
+"Philophosaurus","SaurianRepublic","207","0","4","","","","Reap: You may look at the top 3 cards of your deck. Archive 1, add 1 to your hand, and discard 1.","2.3","0","0","0","0","0","4","1.5","0","0","0"
+"Regrettable Meteor","SaurianRepublic","208","1","","","","","Play: Destroy each Dinosaur creature and each creature with power 6 
+​or higher.","1","0","1","0","0","1","0","-1","0","0","0"
+"Sic Semper Tyrannosaurus","SaurianRepublic","209","0","","","","","Play: Move each aember from the most powerful creature to your pool and 
+​destroy that creature.","2.5","1","1","0","0","0.5","0","0","0","0","0"
+"Stomp","SaurianRepublic","210","1","","","","","Play: Deal 5 damage to a creature. If this damage destroys that creature, exalt a 
+​friendly creature.","1.75","-0.25","1","0","0","1","0","0","0","0","0"
+"Terrordactyl","SaurianRepublic","211","0","12","0","","","Terrordactyl enters play stunned. Terrordactyl only deals 4 damage when fighting.
+​Before Fight: Deal 4 damage to each neighbor 
+​of the creature Terrordactyl fights.","1.9","0","0","0","0","0.5","10","0","0","0","0"
+"The Callipygian Ideal","SaurianRepublic","212","0","","","","","Play: Exalt this creature. This creature gains, ""You may spend
+​aember on this creature as if it were in your
+​pool.""","2","1","1","0","0","0","0","0","0","0","0"
+"Tribune Pompitus","SaurianRepublic","213","0","4","2","","","Each friendly creature gets +2 power for each aember on it.
+​Before Fight: You may exalt 
+​Tribune Pompitus.","1.4","0","0","0","0","0","10","0","0","0","0"
+"Auto-Legionary","SaurianRepublic","214","0","","","","","Action: Put Auto-Legionary on a flank of your battleline. While in the battleline,
+​it is considered a creature with 5 power 
+​and belongs to all houses.","1.5","0","0","0","0","0","5","0","0","1","0"
+"Cincinnatus Rex","SaurianRepublic","215","0","6","4","","","If there are no enemy creatures, destroy Cincinnatus Rex.
+​Fight: You may exalt Cincinnatus Rex. If 
+​you do, ready each other friendly card.","3.4","0","0","0","0","0","10","0","0","0","2"
+"City Gates","SaurianRepublic","216","0","","","","","Action: A friendly creature captures 1 aember. If that creature is a Dinosaur, it captures
+​2 aember instead.","1","1","0","0","0","0","0","0","0","0","0"
+"Crassosaurus","SaurianRepublic","217","0","4","2","","","Elusive.
+
+Play: Capture 10 aember from any combination of players. Then, if 
+​Crassosaurus has fewer than 10 aember on it,
+​purge Crassosaurus.","2","0.5","0.5","0","0","0","6","0","0","0","0"
+"Diplo-Macy","SaurianRepublic","218","1","","","","","Alpha. Play: Until the start of your next turn,
+​each creature gains, ""Before Fight:
+​Exalt this creature.""","1.5","0","1","0","0","0","0","0","0","0","0.5"
+"Favor of Rex","SaurianRepublic","219","1","","","","","Play: Trigger the play effect of a creature as if you had just played it.","1.5","0","1","0","0","0","0","0.5","0","0","0"
+"Good of the Many","SaurianRepublic","220","0","","","","","Play: Destroy each creature that does not share a trait with another creature in its controller's battleline.","1.5","0","0","0","0","1.5","0","0","0","0","0"
+"Grimlocus Dux","SaurianRepublic","221","0","11","2","","","Taunt.
+
+Play: Exalt Grimlocus Dux twice.","1.4","-0.5","0","0","0","0","15","0","0","0","0"
+"Imperial Forge","SaurianRepublic","222","1","","","","","Play: Forge a key at +8 aember current cost, reduced by 1 aember for each aember on friendly creatures.","2","0","1","1","0","0","0","0","0","0","0"
+"Imperial Road","SaurianRepublic","223","0","","","","","Omni: Play a Saurian creature. That creature enters play stunned.","2","0","0","0","0","0","0","2","0","0","0"
+"Kompsos Haruspex","SaurianRepublic","224","0","4","0","","","Each friendly creature's play effect is a play/reap effect.","1.3","0","0","0","0","0","4","0","0","0","0.5"
+"Livia the Elder","SaurianRepublic","225","0","4","0","","","Reap: You may exalt Livia the Elder. If you do, each friendly creature's fight
+​effects and reap effects are fight/reap
+​effects for the remainder of the turn.","1.3","0","0","0","0","0","4","0","0","0","0.5"
+"Primus Unguis","SaurianRepublic","226","0","5","1","","","Each friendly creature gets +2 power for each aember on Primus Unguis.
+​Reap: Exalt Primus Unguis.","1.6","0","0","0","0","0","12","0","0","0","0"
+"Saurus Rex","SaurianRepublic","227","0","6","0","","","Fight/Reap: If Saurus Rex is in the center of your batteline, you may exalt
+​it. If you do, search your deck for a 
+​Saurian card, reveal it, and add it to 
+​your hand. Then, shuffle your deck.","2.5","0","0","0","0","0","6","1.5","0","0","0"
+"Saury About That","SaurianRepublic","228","0","","","","","Play: Destroy a creature. Its controller gains 1 aember.","1","0","0.5","0","0","0.5","0","0","0","0","0"
+"Senator Bracchus","SaurianRepublic","229","0","4","0","","","You may spend aember on friendly creatures as if it were in your pool.
+​Fight/Reap: Exalt Senator Bracchus.","2.3","0.75","0.75","0","0","0","4","0","0","0","0"
+"Sow Salt","SaurianRepublic","230","1","","","","","Alpha. Play: Until the start of your next turn,
+​creatures cannot be used to reap.","1","0.5","0.5","0","0","0","0","0","0","0","0"
+"Spartasaur","SaurianRepublic","231","0","6","1","","","After a friendly creature is destroyed, destroy each non-Dinosaur creature.
+​Fight: Gain 2 aember.","3.5999999999999996","0","1","0","0","1.5","7","0","0","0","0"
+"Tertiate","SaurianRepublic","232","1","","","","","Play: Destroy one third of all enemy creatures and one third of all friendly
+​creatures (rounding up each time).","2","0","1","0","0","1","0","0","0","0","0"
+"The Colosseum","SaurianRepublic","233","0","","","","","After an enemy creature is destroyed while fighting, put a glory counter on
+​The Colosseum.
+​Omni: If there are 6 or more glory counters on 
+​The Colosseum, remove 6 and forge a key at
+​current cost.","1.5","0","0","1.5","0","0","0","0","0","0","0"
+"Triumph","SaurianRepublic","234","1","","","","","Play: If there are no enemy creatures, exalt each friendly creature. If you do and there are 6 or more friendly creatures, forge a key at no cost.","2","0","2","0","0","0","0","0","0","0","0"
+"A. Vinda","Shadows","235","0","4","0","","","Reap: Deal 1 damage to a creature. If this damage destroys that creature, your
+​opponent discards a random card from 
+​their hand.","1.5499999999999998","0","0","0","0","0.25","4","0","0.5","0","0"
+"Bad Penny","Shadows","236","0","1","0","","true","Destroyed: Return Bad Penny to your hand.","0.4","0","0","0","0","0","0","0","0","0","0"
+"Breaker Hill","Shadows","237","0","1","0","","","Elusive.
+
+Each of Breaker Hill's neighbors gains, ""Action: Steal 1 aember.""","1.1","0.5","0","0","0","0","2","0","0","0","0"
+"Hit and Run","Shadows","238","0","","","","","Play: Deal 2 damage to a creature. Return a friendly creature to your hand.","1","0","0","0","0","0.75","0","0.25","0","0","0"
+"Hock","Shadows","239","1","","","","","Play: Destroy an artifact. If you do, gain 1 aember.","3","0","1.5","0","1.5","0","0","0","0","0","0"
+"Hugger-Mugger","Shadows","240","0","3","0","","","Elusive.
+
+Play: Capture 1 aember. Then, if your opponent has more forged keys than you, steal 1 aember.","2.4","1","0.5","0","0","0","5","0","0","0","0"
+"Inky Gloom","Shadows","241","0","","","","","Play: Your opponent cannot use creatures to reap on their next turn.","1","1","0","0","0","0","0","0","0","0","0"
+"J. Vinda","Shadows","242","0","2","0","","","Elusive.
+
+Reap: Deal 1 damage to a creature. If this damage destroys that creature, steal 1 aember.","2.05","0.5","0.5","0","0","0.25","4","0","0","0","0"
+"Kymoor Eclipse","Shadows","243","0","","","","","Play: Shuffle each flank creature into its owner's deck.","1","0","0","0","0","1","0","0","0","0","0"
+"Mug","Shadows","244","1","","","","","Play: Move 1 aember from a creature to your pool. Deal 2 damage to that creature.","2.5","0.5","1.5","0","0","0.5","0","0","0","0","0"
+"Pestering Blow","Shadows","245","1","","","","","Play: Deal 1 damage to a creature and enrage it.","1.75","0","1","0","0","0.75","0","0","0","0","0"
+"Ronnie Wristclocks","Shadows","246","0","2","0","","true","Play: Steal 1 aember. If your opponent has 7 aember or more, steal 2 aember instead.","0.4","0","0","0","0","0","0","0","0","0","0"
+"Symon","Shadows","247","0","1","0","","","Skirmish. 
+
+Fight: Put the creature Symon fights on top of its owner's deck.","1.5999999999999999","0","0","0","0","0.5","2","0","0.5","0","0"
+"Trust No One","Shadows","248","0","","","","","Play: Steal 1 aember. If there are no friendly creatures in play, instead steal 1 aember for
+​each house represented among enemy 
+​creatures (to a maximum of 3).","3","1.5","1.5","0","0","0","0","0","0","0","0"
+"Umbra","Shadows","249","0","2","0","","true","Fight: Steal 1 aember.","0.4","0","0","0","0","0","0","0","0","0","0"
+"Yantzee Gang","Shadows","250","0","5","0","","true","Action: Steal 1 aember.","0.4","0","0","0","0","0","0","0","0","0","0"
+"Brend the Fanatic","Shadows","251","0","3","0","","true","Play: Your opponent gains 1 aember. Destroyed: Steal 3 aember.","0.4","0","0","0","0","0","0","0","0","0","0"
+"Chain Gang","Shadows","252","0","3","","","","After you play Subtle Chain, ready Chain Gang.
+
+Action: Steal 1 Aember. Shuffle a Subtle Chain from your discard pile into your deck.","3.4499999999999997","1.25","1","0","0","0","3","0","0.5","0","0"
+"Duskrunner","Shadows","253","0","","","","true","This creature gains, ""Reap: Steal 1 aember.""","0","0","0","0","0","0","0","0","0","0","0"
+"Fidgit","Shadows","254","0","2","0","","","Elusive.
+
+Reap: Discard a random card from your opponent's archives or the top card of
+​their deck. If that card is an action, play
+​it as if it were yours.","2.3","0","0","0","0","0","4","0.5","1","0","0"
+"Hidden Stash","Shadows","255","1","","","","true","Play: Archive a card.","0","0","0","0","0","0","0","0","0","0","0"
+"Into the Night","Shadows","256","0","","","","","Play: Until the start of your next turn, non-Shadows creatures cannot be used
+​to fight.","0.3","0","0","0","0","0","3","0","0","0","0"
+"No Safety in Numbers","Shadows","257","1","","","","","Play: Deal 3 damage to each creature that belongs to a house that has 3 or more 
+​creatures in play.","2","0","1","0","0","1","0","0","0","0","0"
+"Oubliette","Shadows","258","0","","","","true","Play: Purge a creature with power 3 or lower.","0","0","0","0","0","0","0","0","0","0","0"
+"Skeleton Key","Shadows","259","0","","","","true","Action: A friendly creature captures 1 aember.","0","0","0","0","0","0","0","0","0","0","0"
+"Special Delivery","Shadows","260","1","","","","true","Omni: Sacrifice Special Delivery. Deal 3 damage to a flank creature. If this damage destroys 
+​that creature, purge it.","0","0","0","0","0","0","0","0","0","0","0"
+"Spike Trap","Shadows","261","1","","","","","Omni: Sacrifice Spike Trap. If you do, deal 3 damage to each flank creature.","1.5","0","1","0","0","0.5","0","0","0","0","0"
+"Subtle Chain","Shadows","262","1","","","","","Play: Your opponent discards a random card from their hand.","2","0","1","0","0","0","0","0","1","0","0"
+"Subtle Maul","Shadows","263","0","","","","true","Action: Your opponent discards a random card from their hand.","0","0","0","0","0","0","0","0","0","0","0"
+"Too Much to Protect","Shadows","264","1","","","","true","Play: Steal all but 6 of your opponent's aember.","0","0","0","0","0","0","0","0","0","0","0"
+"Whisper","Shadows","265","0","3","0","","","Elusive.
+
+Action: Lose 1 aember. If you do, destroy a creature.","1.15","0","0","0","0","0.25","5","0","0","0","0"
+"Customs Office","Shadows","266","0","","","","true","Your opponent must pay you 1 aember in order to play an artifact.","0","0","0","0","0","0","0","0","0","0","0"
+"Finch Cloak","Shadows","267","0","4","0","","","Fight/Reap: If you have less aember than your opponent, steal 1 aember. Otherwise, 
+​each player gains 1 aember.","1.7999999999999998","0.5","0.5","0","0","0","4","0","0","0","0"
+"Gambling Den","Shadows","268","1","","","","","At the start of each player's turn, that player may choose a house. If they do,
+​reveal the top card of their deck. If it
+​is of the named house, they gain 2 aember.
+​Otherwise, they lose 2 aember.","1","0","1","0","0","0","0","0","0","0","0"
+"Hunter or Hunted?","Shadows","269","1","","","","","Play: Ward a creature, or move a ward from a creature to another creature.","1.7","0","1","0","0","0","7","0","0","0","0"
+"Key of Darkness","Shadows","270","0","","","","true","Play: Forge a key at +6 aember current cost. If your opponent has no aember, forge a key
+​at +2 aember current cost instead.","0","0","0","0","0","0","0","0","0","0","0"
+"Keyforgery","Shadows","271","1","","","","","When your opponent would forge a key, that player names a house. Reveal
+​a random card from your hand. If that 
+​card is not of the named house, destroy
+​Keyforgery and they do not forge that
+​key (no aember is spent).","2","1","1","0","0","0","0","0","0","0","0"
+"Lethal Distraction","Shadows","272","1","","","","true","Play: Choose a creature. For the remainder of the turn, whenever this creature takes 
+​damage, it takes an additional 2 damage.","0","0","0","0","0","0","0","0","0","0","0"
+"Longfused Mines","Shadows","273","1","","","","true","Omni: Sacrifice Longfused Mines. Deal 3 damage to each enemy creature not on a flank.","0","0","0","0","0","0","0","0","0","0","0"
+"Mack the Knife","Shadows","274","0","3","0","","true","You may use Mack the Knife as if it belonged to the active house. 
+​Action: Deal 1 damage to a creature. 
+​If this damage destroys that creature,
+​gain 1 aember.","0.4","0","0","0","0","0","0","0","0","0","0"
+"Manchego","Shadows","275","0","3","0","","","Play: If you have 5 or fewer cards in your deck, steal 2 aember.
+​Fight/Reap: You may shuffle Manchego
+​into your deck.","2.6999999999999997","1","1","0","0","0","3","0","0","0","0"
+"Rigged Lottery","Shadows","276","1","","","","true","Play: Each player discards the top 5 cards of their deck. For each Shadows card 
+​discarded, its owner gains 1 aember.","0","0","0","0","0","0","0","0","0","0","0"
+"Ring of Invisibility","Shadows","277","1","","","","true","This creature gains elusive and skirmish.","0","0","0","0","0","0","0","0","0","0","0"
+"Sack of Coins","Shadows","278","1","","","","true","Play: Deal 1 damage to a creature for each aember in your pool.","0","0","0","0","0","0","0","0","0","0","0"
+"Scowly Caper","Shadows","279","0","2","0","","true","Scowly Caper enters play under your opponent’s control and can be used as if it belonged to any 
+​house. 
+​At the end of your turn, destroy one of Scowly 
+​Caper’s neighbors.","0.4","0","0","0","0","0","0","0","0","0","0"
+"Selwyn the Fence","Shadows","280","0","3","0","","true","Fight/Reap: Move 1 aember from one of your cards to your pool.","0.4","0","0","0","0","0","0","0","0","0","0"
+"Sneklifter","Shadows","281","0","2","0","","true","Play: Take control of an enemy artifact. While under your control, if it does not 
+​belong to one of your 3 houses, it is 
+​considered to be of house Shadows.","0.4","0","0","0","0","0","0","0","0","0","0"
+"The Quiet Anvil","Shadows","282","1","","","","","Keys cost -2 aember. After a player forges a key, destroy The
+​Quiet Anvil.","2","0","2","0","0","0","0","0","0","0","0"
+"The Shadow Council","Shadows","283","0","3","0","","","Elusive.
+
+While The Shadow Council is in the center of your battleline, it gains,​ ""Action: Steal 2 aember.""","2.9","1.5","0.5","0","0","0","5","0","0","0","0"
+"Treasure Map","Shadows","284","1","","","","true","Play: If you have not played any other cards this turn, gain 3 aember. For the remainder of 
+​the turn, you cannot play cards.","0","0","0","0","0","0","0","0","0","0","0"
+"Weasand","Shadows","285","0","1","0","","","Deploy. Elusive.
+
+If Weasand is on a flank, destroy it. After a player forges a key, gain 2 aember.","1.5","0","1","0","0","0","1","0","0","0","0"
+"Brobnar Plant","Shadows","286","0","1","0","","","Elusive.
+
+After a player chooses Brobnar as their active house, gain 1 aember.","1.5999999999999999","0","1","0","0","0","2","0","0","0","0"
+"Dis Plant","Shadows","287","0","1","","","","Elusive.
+
+After a player chooses Dis as their active house, gain 1 aember.","1.5999999999999999","0","1","0","0","0","2","0","0","0","0"
+"Logos Plant","Shadows","288","0","1","0","","","After a player chooses Logos as their active house, gain 1 aember.","1.5999999999999999","0","1","0","0","0","2","0","0","0","0"
+"Saurian Plant","Shadows","289","0","1","0","","","After a player chooses Saurian as their active house, gain 1 aember.","1.5999999999999999","0","1","0","0","0","2","0","0","0","0"
+"Star Alliance Plant","Shadows","290","0","1","0","","","After a player chooses Star Alliance as their active house, gain 1 aember.","1.5999999999999999","0","1","0","0","0","2","0","0","0","0"
+"Untamed Plant","Shadows","291","0","1","0","","","After a player chooses Untamed as their active house, gain 1 aember.","1.5999999999999999","0","1","0","0","0","2","0","0","0","0"
+"Armsmaster Molina","StarAlliance","292","0","4","0","","","Hazardous 3.
+
+Each of Armsmaster Molina's neighbors gains hazardous 3.","1.6","0","0","0","0","0","12","0","0","0","0"
+"Chief Engineer Walls","StarAlliance","293","0","2","0","","","Elusive.
+
+Play/Fight/Reap: You may return an upgrade or Robot card from your
+​discard pile to your hand.","1.7999999999999998","0","0","0","0","0","4","1","0","0","0"
+"Cloaking Dongle","StarAlliance","294","1","","","","","This creature and each of its neighbors gain elusive.","1.4","0","1","0","0","0","4","0","0","0","0"
+"Com. Officer Kirby","StarAlliance","295","0","3","0","","","Play/Fight/Reap: You may play a non- Star Alliance artifact, upgrade, or action
+​card this turn.","2.6999999999999997","0","0","0","0","0","3","2","0","0","0"
+"Commander Chan","StarAlliance","296","0","4","0","","","Fight/Reap: Use another friendly creature.","1.7999999999999998","0","0","0","0","0","4","0","0","1","0"
+"Explo-rover","StarAlliance","297","0","3","0","","","Expo-rover may be played as an upgrade instead of a creature, with the
+​text: ""This creature gains skirmish.""","1.5","0","0","0","0","0","6","0","0","0","0.5"
+"First Officer Frane","StarAlliance","298","0","4","0","","","Play/Fight/Reap: A friendly creature captures 1 aember.","1.5499999999999998","0.75","0","0","0","0","4","0","0","0","0"
+"Lieutenant Khrkhar","StarAlliance","299","0","5","0","","","","1.4","0","0","0","0","0","10","0","0","0","0"
+"Light of the Archons","StarAlliance","300","1","","","","","This creature gets +1 power and +1 armor for each upgrade
+​attached to it.","1.3","0","1","0","0","0","3","0","0","0","0"
+"Medic Ingram","StarAlliance","301","0","3","","","","Play/Fight/Reap: You may heal 3 damage from a creature and ward it.","1.4","0","0","0","0","0","10","0","0","0","0"
+"Molina's Blaster","StarAlliance","302","1","","","","","This creature gains, ""Fight/Reap: You may deal 2 damage to a creature, or attach
+​Molina's Blaster to Armsmaster Molina.""
+​After you attach Molina's Blaster to
+​Armsmaster Molina, you may deal 3 damage
+​to a creature.","2.25","0","1","0","0","1.25","0","0","0","0","0"
+"Red Alert","StarAlliance","303","0","","","","","Play: If there are more enemy creatures than friendly creatures, deal damage
+​to each enemy creature equal to
+​the difference.","3","0","0","0","0","3","0","0","0","0","0"
+"Sci. Officer Qincan","StarAlliance","304","0","2","0","","","Elusive.
+
+After a player chooses an active house which matches no cards in play,
+​steal 1 aember.","2.8","1","1","0","0","0","4","0","0","0","0"
+"Sensor Chief Garcia","StarAlliance","305","0","3","0","","","Play/Fight/Reap: Keys cost +2 aember during your opponent's next turn.","2.6999999999999997","2","0","0","0","0","3","0","0","0","0"
+"Stealth Mode","StarAlliance","306","1","","","","","Play: Your opponent cannot play action cards during their next turn.","3","0","1","0","0","0","0","0","2","0","0"
+"Zap","StarAlliance","307","1","","","","","Play: Deal 1 damage to a creature for each house represented among creatures 
+​in play.","2","0","1","0","0","1","0","0","0","0","0"
+"CALV-1N","StarAlliance","308","0","2","1","","","Fight/Reap: Draw a card. 
+
+CALV-1N may be played as an upgrade ​instead of a creature, with the text: ""This creature gains: 'Fight/Reap: Draw ​a card.'""","1.2","0","0","0","0","0","3","0.5","0","0","0"
+"CX0 Taber","StarAlliance","309","0","3","0","","","Fight/Reap: You may play one or use one non-Star Alliance card this turn.","1.45","0","0","0","0","0","3","0.5","0","0.25","0"
+"Force Field","StarAlliance","310","1","","","","","This creature gains: ""Reap: Ward this creature.""","1.7","0","1","0","0","0","7","0","0","0","0"
+"Helmsman Spears","StarAlliance","311","0","2","0","","","Fight/Reap: Discard any number of cards from your hand. Draw a card for
+​each card discarded this way.","2.1","0","0","0","0","0","2","1.5","0","0","0"
+"Information Officer Gray","StarAlliance","312","0","4","0","","","Play/Fight/Reap: You may reveal a non- Star Alliance card from your hand. If you
+​do, archive it.","2.3","0","0","0","0","0","4","1.5","0","0","0"
+"Lay of the Land","StarAlliance","313","1","","","","","Play: Look at the top 3 cards of your deck and put them back in any order.
+​Draw a card.","3","0","1","0","0","0","0","2","0","0","0"
+"Navigator Ali","StarAlliance","314","0","3","0","","","Play/Fight/Reap: Look at the top 3 cards of your deck and put them back in
+​any order.","0.95","0","0","0","0","0","3","0.25","0","0","0"
+"Nurse Soto","StarAlliance","315","0","3","0","","","Deploy.
+
+Play/Fight/Reap: Heal 3 damage from each of Nurse Soto's neighbors.","1","0","0","0","0","0","6","0","0","0","0"
+"Quadracorder","StarAlliance","316","0","","","","","Your opponent's keys cost +1 aember for each house represented among friendly creatures (to a maximum of 3).","1.5","1.5","0","0","0","0","0","0","0","0","0"
+"Quintrino Flux","StarAlliance","317","0","","","","","Play: Choose a friendly creature and an enemy creature. Destroy the
+​chosen creatures and each creature
+​with the same power as either of the
+​chosen creatures.","2","0","0","0","0","2","0","0","0","0","0"
+"Sci. Officer Morpheus","StarAlliance","318","0","2","1","","","After you play a creature with a play effect, trigger its play effect an
+​additional time.","1.7","0","0","0","0","0","3","0","0","0","1"
+"Stunner","StarAlliance","319","1","","","","","This creature gains, ""Fight/Reap: You may stun a creature.""","1.5","0","1","0","0","0.5","0","0","0","0","0"
+"Tactical Officer Moon","StarAlliance","320","0","4","0","","","Play: You may rearrange the creatures in a player's battleline.","2","0","0","0","0","0","6","0","0","0","1"
+"Transporter Platform","StarAlliance","321","1","","","","","Action: Return a friendly creature and each upgrade attached to it to your hand.","2","0","2","0","0","0","0","0","0","0","0"
+"Universal Translator","StarAlliance","322","1","","","","","This creature gains, ""Fight/Reap: Use a friendly non-Star Alliance creature.""","1.75","0","1","0","0","0","0","0","0","0.75","0"
+"Xenotraining","StarAlliance","323","1","","","","","Play: For each house represented among friendly creatures, a friendly 
+​creature captures 1 aember.","2","1","1","0","0","0","0","0","0","0","0"
+"Aembertracker","StarAlliance","324","0","4","0","","","Play: Deal 2 damage to each enemy creature with aember on it.
+​This cannot be prevented by armor.","1.7999999999999998","0","0","0.25","0","0.75","4","0","0","0","0"
+"Book of IeQ","StarAlliance","325","0","","","","","Action: Reveal the top card of your deck. If it's a non-Star Alliance card,
+​its house becomes your active house.
+​Otherwise, end your turn.","4","0","0","0","0","0","0","4","0","0","0"
+"Captain Val Jericho","StarAlliance","326","0","5","1","","","During your turn, if Captain Val Jericho is in the center of your battleline, you may play one card that is not of the active house.","4","0","0","0","0","0","6","3","0","0","0"
+"Crash Muldoon","StarAlliance","327","0","3","0","","","Deploy.
+
+Crash Muldoon enters play ready. 
+
+Action: Use a neighboring non-Star ​Alliance creature.","2.1999999999999997","0","0.5","0","0","0","3","0","0","1","0"
+"Disruption Field","StarAlliance","328","1","","","","","Your opponent's keys cost +1 aember for each disruption counter on 
+​Disruption Field.
+​This creature gains, ""Fight/Reap:
+​Put a disruption counter on 
+​Disruption Field.""","2","1","1","0","0","0","0","0","0","0","0"
+"Doctor Driscoll","StarAlliance","329","0","3","","","","Elusive.
+
+Action: Heal 2 damage from a creature. Gain 1 aember for each damage healed this way.","1.5","0","0.5","0","0","0","6","0","0","0","0"
+"Encounter Suit","StarAlliance","330","0","","","","","After an action is played but before it resolves, ward this creature.","1","0","0","0","0","0","10","0","0","0","0"
+"Forging an Alliance","StarAlliance","331","1","","","","","Play: Forge a key at +7 current cost, reduced by 1 aember (to a maximum of 6) for 
+​each house represented among cards
+​in play.","1.25","0","1","0.25","0","0","0","0","0","0","0"
+"Galactic Census","StarAlliance","332","1","","","","","Play: If there are exactly 3 or exactly 4 houses represented among creatures
+​in play, gain 1 aember. If there are exactly
+​5, gain 2 aember. If there are 6 or more,
+​gain 3 aember.","2.5","0","2.5","0","0","0","0","0","0","0","0"
+"General Order 24","StarAlliance","333","0","","","","","At the start of each player's turn, they must choose a creature they control and
+​destroy each creature of the chosen
+​creature's house. If that player has no
+​creatures in play, destroy General Order
+​24 instead.","2","0","0","0","0","2","0","0","0","0","0"
+"Operations Officer Yshi","StarAlliance","334","0","4","2","","","Taunt.
+
+Each of Operations Officer Yshi's neighbors gains, ""Fight/Reap: Capture 1 aember.""","1.7000000000000002","0.5","0","0","0","0","8","0","0","0","0"
+"Peace Accord","StarAlliance","335","0","","","","","Play: Each player gains 2 aember. After a creature is used to fight,
+​its controller loses 4 aember. Destroy
+​Peace Accord.","1.25","-1","2","0","0","0.25","0","0","0","0","0"
+"Plasma Nozzle","StarAlliance","336","1","","","","","This creature gains, ""Before Fight: Deal 2 damage to the attacked creature,
+​with 2 damage splash.""","2.25","0","1","0","0","1.25","0","0","0","0","0"
+"Psionic Officer Lang","StarAlliance","337","0","3","0","","","After an enemy creature reaps, archive the top card of your deck.","1.2","0","0","0","0","0","3","0.5","0","0","0"
+"Quixxle Stone","StarAlliance","338","1","","","","","If a player has more creatures in play than their opponent, they cannot 
+​play creatures.","2","0","1","0","0","1","0","0","0","0","0"
+"Special Agent "Fingers"","StarAlliance","339","0","1","0","","","Elusive.
+
+Action: Steal 1 aember.","1.45","0.75","0","0","0","0","3","0","0","0","0"
+"Tachyon Pulse","StarAlliance","340","1","","","","","Play: Destroy each artifact. Exhaust each creature with an upgrade.","2.75","0","1","0","1.5","0.25","0","0","0","0","0"
+"Technivore Pulpate","StarAlliance","341","0","5","0","","","After a player chooses an active house, destroy each artifact of that house.","2.4","0","0","0","1.5","0","5","0","0","0","0"
+"Uncharted Lands","StarAlliance","342","0","","","","","Play: Place 6 aember from the common supply on Uncharted Lands.
+​Each Star Alliance creature gains,
+​""Reap: Move 1 aember from Uncharted Lands
+​to your pool.""","2","0","2","0","0","0","0","0","0","0","0"
+"United Action","StarAlliance","343","0","","","","","Alpha. Play: For the remainder of the turn,
+​you may play cards from any house
+​for which you have a card in play. You
+​cannot use cards this turn.","3","0","0","0","0","0","0","3","0","0","0"
+"We Can ALL Win","StarAlliance","344","1","","","","","Play: Keys cost -2 aember until the end of your next turn.","2","0","2","0","0","0","0","0","0","0","0"
+"Chan's Blaster","StarAlliance","345","1","","","","","This creature gains, ""Fight/Reap: You may deal 2 damage to a creature, or attach
+​Chan's Blaster to Commander Chan.""
+​After you attach Chan's Blaster to 
+​Commander Chan, you may use 
+​another friendly creature.","1.75","0","1","0","0","0.25","0","0","0","0.5","0"
+"Frane's Blaster","StarAlliance","346","1","","","","","This creature gains, ""Fight/Reap: You may deal 2 damage to a creature, or attach
+​Frane's Blaster to First Officer Frane.""
+​After you attach Frane's Blaster to First
+​Officer Frane, move each aember from First
+​Officer Frane to your pool.","1.75","0.25","1.25","0","0","0.25","0","0","0","0","0"
+"Garcia's Blaster","StarAlliance","347","1","","","","","This creature gains, ""Fight/Reap: You may deal 2 damage to a creature, or 
+​attach Garcia's Blaster to Sensor
+​Chief Garcia."" 
+​After you attach Garcia's Blaster to 
+​Sensor Chief Garcia, steal 1 aember.","0.75","0.25","0.25","0","0","0.25","0","0","0","0","0"
+"Ingram's Blaster","StarAlliance","348","1","","","","","This creature gains, ""Fight/Reap: You may deal 2 damage to a creature, or attach
+​Ingram's Blaster to Medic Ingram.""
+​After you attach Ingram's Blaster to 
+​Medic Ingram, fully heal a creature.","1.45","0","1","0","0","0.25","2","0","0","0","0"
+"Khrkhar's Blaster","StarAlliance","349","1","","","","","This creature gains, ""Fight/Reap: You may deal 2 damage to a creature, or attach
+​Khrkhar's Blaster to Lieutenant Khrkhar.""
+​After you attach Khrkhar's Blaster
+​to Lieutenant Khrkhar, ward
+​Lieutenant Khrkhar.","1.75","0","1","0","0","0.25","5","0","0","0","0"
+"Kirby's Blaster","StarAlliance","350","1","","","","","This creature gains, ""Fight/Reap: You may deal 2 damage to a creature, 
+​or attach Kirby's Blaster to Com.
+​Officer Kirby.""
+​After you attach Kirby's Blaster to
+​Com. Officer Kirby, draw 2 cards.","1.75","0","1","0","0","0.25","0","0.5","0","0","0"
+"Qincan's Blaster","StarAlliance","351","1","","","","","This creature gains, ""Fight/Reap: You may deal 2 damage to a creature, or attach
+​Qincan's Blaster to Sci. Officer Qincan.""
+​After you attach Qincan's Blaster to 
+​Sci. Officer Qincan, you may archive a
+​creature in play.","1.75","0.25","1.25","0","0","0.25","0","0","0","0","0"
+"Walls' Blaster","StarAlliance","352","1","","","","","This creature gains, ""Fight/Reap: You may deal 2 damage to a creature, or attach
+​Walls' Blaster to Chief Engineer Walls.""
+​After you attach Walls' Blaster to Chief
+​Engineer Walls, stun a creature for each
+​upgrade on Chief Engineer Walls.","1.5","0","1","0","0","0.5","0","0","0","0","0"
+"Bramble Lynx","Untamed","353","0","3","0","","","If you have used a creature to reap this turn, Bramble Lynx enters play ready.","1.4","0","0.5","0","0","0","5","0","0","0","0"
+"Cauldron Boil","Untamed","354","1","","","","","Play: Deal damage to each creature equal to the amount of damage on that creature.","1.75","0","1","0","0","0.75","0","0","0","0","0"
+"Deepwood Druid","Untamed","355","0","3","0","","","Deploy.
+
+Play/Reap: Fully heal a neighboring creature.","1","0","0","0","0","0","6","0","0","0","0"
+"Ghosthawk","Untamed","356","0","2","0","","","Deploy.
+
+Play: You may reap with each neighboring creature, one at a time.","2.6","0","2","0","0","0","2","0","0","0","0"
+"Harmonia","Untamed","357","0","2","0","","","Elusive.
+
+After you play a creature, if there are more enemy creatures than friendly 
+​creatures, gain 1 aember.","1.7999999999999998","0","1","0","0","0","4","0","0","0","0"
+"Imprinted Murmook","Untamed","358","0","3","0","","","Elusive.
+
+Your keys cost -1 aember.","1.7","0","1","0","0","0","3","0","0","0","0"
+"Key Charge","Untamed","359","0","","","","true","Play: Lose 1 aember. If you do, you may forge a key at current cost.","0","0","0","0","0","0","0","0","0","0","0"
+"Molephin","Untamed","360","0","3","","","","Hazardous 3.
+
+After aember is stolen from you deal 1 damage to each enemy creature for each aember stolen.","2","0","0","0.5","0","0.5","6","0","0","0","0"
+"Musthic Murmook","Untamed","361","0","4","0","","","Each player's keys cost +1 aember. Play: Deal 4 damage to a creature.","2.05","0.5","-0.5","0","0","1.25","4","0","0","0","0"
+"Regrowth","Untamed","362","1","","","","true","Play: Return a creature from your discard pile to your hand.","0","0","0","0","0","0","0","0","0","0","0"
+"Rustgnawer","Untamed","363","0","4","0","","true","Fight: Destroy an artifact. If that artifact had an Aember bonus, you gain that
+​much aember.","0.4","0","0","0","0","0","0","0","0","0","0"
+"Song of the Wild","Untamed","364","0","","","","","Play: For the remainder of the turn, each friendly creature gains, ""Reap: 
+​Gain 1 aember.""","1.5","0","1.5","0","0","0","0","0","0","0","0"
+"Tantadlin","Untamed","365","0","9","0","","true","Tantadlin only deals 2 damage when fighting. Fight: Discard a random card from your
+​opponent's archives.","0.4","0","0","0","0","0","0","0","0","0","0"
+"The Fittest","Untamed","366","1","","","","","Play: Give each friendly creature a +1 power counter.","1.4","0","1","0","0","0","4","0","0","0","0"
+"Unnatural Selection","Untamed","367","1","","","","","Play: Choose 3 friendly creatures and 3 enemy creatures. Destroy each
+​other creature.","2.5","0","1","0","0","1.5","0","0","0","0","0"
+"Unsuspecting Prey","Untamed","368","0","","","","","Play: Deal 2 damage to up to 3 undamaged creatures.","1","0","0","0","0","1","0","0","0","0","0"
+"Camouflage","Untamed","369","1","","","","true","Creatures not on a flank cannot fight this creature.","0","0","0","0","0","0","0","0","0","0","0"
+"Fangtooth Cavern","Untamed","370","1","","","","","At the end of your turn, destroy the least powerful creature.","1.5","0","1","0","0","0.5","0","0","0","0","0"
+"Flaxia","Untamed","371","0","4","0","","true","Play: Gain 2 aember if you control more creatures than your opponent.","0.4","0","0","0","0","0","0","0","0","0","0"
+"Fogbank","Untamed","372","1","","","","true","Play: Your opponent cannot use creatures to fight on their next turn.","0","0","0","0","0","0","0","0","0","0","0"
+"Gebuk","Untamed","373","0","5","0","","","Destroyed: Discard the top card of your deck. If it is a creature, after Gebuk
+​leaves play, put that creature into play in
+​Gebuk's position in the battleline.","1.9","0","0","0","0","0","5","1","0","0","0"
+"Grasping Vines","Untamed","374","1","","","","true","Play: Return up to 3 artifacts to their owners' hands.","0","0","0","0","0","0","0","0","0","0","0"
+"Instrument of Silence","Untamed","375","0","","","","","This creature gains skirmish, and ""Fight: Gain 1 aember.""","1.2","0","1","0","0","0","2","0","0","0","0"
+"Kangaphant","Untamed","376","0","5","0","","","Each creature gains, ""Reap: Destroy this creature.""","1.4","0","0","0","0","0.5","5","0","0","0","0"
+"Low Dawn","Untamed","377","1","","","","","Play: If there are 3 or more Untamed creatures in your discard pile, gain 2 aember.
+​Shuffle each Untamed creature from 
+​your discard pile into your deck.","2","0","2","0","0","0","0","0","0","0","0"
+"Mab the Mad","Untamed","378","1","2","","","","Reap: Shuffle Mab the Mad into your deck.","2.1","0","1.25","0","0","0","2","0.25","0","0","0"
+"Mimicry","Untamed","379","0","","","","true","When you play this card, treat it as a copy of an action card in your 
+​opponent's discard pile.","0","0","0","0","0","0","0","0","0","0","0"
+"Nature's Call","Untamed","380","1","","","","true","Play: Return up to 3 creatures to their owners' hands.","0","0","0","0","0","0","0","0","0","0","0"
+"Panpaca, Anga","Untamed","381","0","5","0","","true","Creatures to the right of Panpaca, Anga in the battleline get +2 power.","0.4","0","0","0","0","0","0","0","0","0","0"
+"Panpaca, Jaga","Untamed","382","0","3","0","","true","Creatures to the left of Panpaca, Jaga in the battleline gain skirmish.","0.4","0","0","0","0","0","0","0","0","0","0"
+"The Feathered Shaman","Untamed","383","0","2","0","","","Elusive.
+
+Fight/Reap: Ward each of The Feathered Shaman's neighbors.","1.4","0","0","0","0","0","10","0","0","0","0"
+"Wild Spirit","Untamed","384","1","","","","","This creature gains: Reap: Capture 1 aember.","1.5","0.5","1","0","0","0","0","0","0","0","0"
+"Creed of Nature","Untamed","385","0","","","","","Omni: Sacrifice Creed of Nature. If you do, choose a creature. For the 
+​remainder of the turn, that creature
+​gains skirmish and assault X. X is 
+​its power.","1.25","0","0","0","0","1.25","0","0","0","0","0"
+"Creed of Nurture","Untamed","386","0","","","","","Omni: Sacrifice Creed of Nurture. If you do, reveal a creature from your
+​hand and choose a creature in play. For 
+​the remainder of the turn, the chosen
+​creature gains the text box of the 
+​revealed creature.","1","0","0","0","0","0","0","0","0","0","1"
+"Curiosity","Untamed","387","1","","","","true","Play: Destroy each Scientist creature.","0","0","0","0","0","0","0","0","0","0","0"
+"Eldest Bear","Untamed","388","0","5","0","","","Assault 3.
+
+While Eldest Bear is in the center of your battleline, it gains, ""Before Fight:
+​Gain 2 aember.""","2.7","0","1.5","0","0","0","8","0","0","0","0"
+"Fuzzy Gruen","Untamed","389","2","5","0","","true","Play: Your opponent gains 1 aember.","0.4","0","0","0","0","0","0","0","0","0","0"
+"Giant Gnawbill","Untamed","390","0","5","0","","","After a player chooses an active house, that player destroys an artifact of
+​that house.","2.4","0","0","0","1.5","0","5","0","0","0","0"
+"Gravid Cycle","Untamed","391","1","","","","true","Omega. Play: Return a card from your 
+​discard pile to your hand.","0","0","0","0","0","0","0","0","0","0","0"
+"Inka the Spider","Untamed","392","0","1","0","","true","Play/Reap: Stun a creature.","0.4","0","0","0","0","0","0","0","0","0","0"
+"Moor Wolf","Untamed","393","0","2","0","","","Skirmish. 
+
+Play: Ready each other Wolf creature.","1.1","0","0.5","0","0","0","2","0","0","0","0"
+"Nepeta Gigantica","Untamed","394","0","","","","","Action: Stun a creature with power 5 or higher, or stun a Giant creature.","0.5","0","0","0","0","0.5","0","0","0","0","0"
+"Perilous Wild","Untamed","395","1","","","","true","Play: Destroy each elusive creature.","0","0","0","0","0","0","0","0","0","0","0"
+"Piranha Monkeys","Untamed","396","0","2","0","","true","Play/Reap: Deal 2 damage to each other creature.","0.4","0","0","0","0","0","0","0","0","0","0"
+"Po's Pixies","Untamed","397","0","1","0","","true","Aember stolen or captured from your pool is taken from the common supply instead.","0.4","0","0","0","0","0","0","0","0","0","0"
+"Punctuated Equilibrium","Untamed","398","0","","","","true","Play: Each player discards their hand, then refills their hand as if it were the 
+​end of their turn.","0","0","0","0","0","0","0","0","0","0","0"
+"Quicksand","Untamed","399","1","","","","true","Play: Destroy the most powerful creature controlled by each player who does not control a ready Untamed creature.","1","0","1","0","0","0","0","0","0","0","0"
+"Roxador","Untamed","400","0","4","0","","true","Roxador only deals 2 damage when fighting. Fight: Stun the attacked creature.
+​
+​","0.4","0","0","0","0","0","0","0","0","0","0"
+"Teliga","Untamed","401","0","3","0","","true","Each time your opponent plays a creature, gain 1 aember.","0.4","0","0","0","0","0","0","0","0","0","0"
+"Vineapple Tree","Untamed","402","1","","","","","Keys cost +1 aember for each growth counter on Vineapple Tree.
+​After a key is forged, remove each growth 
+​counter from Vineapple Tree.
+​Action: Put a growth counter on
+​Vineapple Tree.","2","1","1","0","0","0","0","0","0","0","0"
+"Witch of the Wilds","Untamed","403","0","4","0","","true","During each turn in which Untamed is not your active house, you may play 
+​one Untamed card.
+​
+​","0.4","0","0","0","0","0","0","0","0","0","0"
+"Xenos Bloodshadow","Untamed","404","0","4","0","","","Elusive. Hazardous 6. Poison. Skirmish.","2.4","0","0","0","0","0","20","0","0","0","0"
+"Toad","Untamed","405","0","1","0","","","Toad cannot reap.","0.25","0","-0.25","0","0","0","1","0","0","0","0"
+"Ghostform","","A01","1","","","true","","This creature gains invulnerable. (It cannot be destroyed or dealt
+​damage.)
+​This creature gains, ""Fight/Reap:
+​Archive Ghostform.""","2.5","0","1","0","0","0","10","0.5","0","0","0"
+"Infomancer","","A02","0","3","0","true","","Elusive.
+
+Play: Graft an action card from your hand onto Infomancer. (Place it faceup under the
+​card.)
+​Reap: Trigger the play effect of an action card
+​grafted onto Infomancer.","1.9","0","0","0","0","0","5","1","0","0","0"
+"Lateral Shift","","A03","0","","","true","","Play: Look at your opponent's hand. Play a card from that hand as if it 
+​were yours.","5","0","0","0","0","0","0","2","2.5","0","0.5"
+"Memolith","","A04","0","","","true","","Action: Graft an action card from your hand onto Memolith (place it
+​faceup under this card), or trigger the
+​play effect of an action card grafted
+​onto Memolith.","1","0","0","0","0","0","0","1","0","0","0"
+"Nizak, The Forgotten","","A05","0","6","","true","","While fighting, Nizak, The Forgotten gains invulnerable. (It cannot be destroyed or dealt damage.)
+
+After an enemy creature is destroyed fighting Nizak, The Forgotten, return that creature to its owner's hand.","1.3","0","0","0","0","0","9","0","0","0","0"
+"Orb of Wonder","","A06","0","","","true","","Omni: Sacrifice Orb of Wonder. If you do, search your deck for a card and add it to your hand.  Then, shuffle your deck.","3","0","0","0","0","0","0","3","0","0","0"
+"The Grim Reaper","","A07","0","4","0","true","","If you are haunted, The Grim Repear enters play ready. *(You are haunted if there are 10 or
+​more cards in your discard pile.)
+​*Reap: Purge an enemy creature and a 
+​friendly creature.","2.3","0","0.5","0","0","1","4","0","0","0","0"
+"The Red Baron","","A08","0","4","1","true","","While your red key is forged, The Red Baron gains, ""Reap: Steal 1 aember.""
+​While your opponent's red key is
+​forged, The Red Baron gains elusive.","2.4","0.75","0.75","0","0","0","5","0","0","0","0"
+"Timequake","","A09","1","","","true","","Play: Shuffle each friendly card in play into your deck. Draw a card for each card shuffled into your deck this way.","2","0","1","0","0","0","0","1","0","0","0"
+"Valoocanth","","A10","0","6","0","true","","While the tide is low, Valoocanth cannot be used.
+​Fight/Reap: Exhaust an enemy creature
+​and each of its neighbors.","1.5","0","0","0","0","0.5","6","0","0","0","0"
