@@ -13,10 +13,10 @@ Mogghunter,1.5
 Narp,0.8
 Shorty,1.2000000000000002
 Stilt-Kin,1.5499999999999998
-Tremor,1
+Tremor,0
 Warrior's Refrain,2
-Blood Money,1.5
-Flamethrower,0.5
+Blood Money,0
+Flamethrower,0
 Flamewake Shaman,0.4
 Fyre-Breath,2.05
 Gargantes Scrapper,0.4
@@ -30,7 +30,7 @@ Shattered Throne,1.5
 Skoll,1.1
 Slimy Jark,0.95
 Smith,1
-The Flex,1
+The Flex,0
 Barehanded,1
 Bellowing Patrizate,0.4
 Cybergiant Rig,1
@@ -38,13 +38,13 @@ Forgemaster Og,0.4
 Grumpus Tamer,0.4
 Guji Dinosaur Hunter,1.75
 Igon the Green,0.8
-Iron Obelisk,1.5
+Iron Obelisk,0
 Kaloch Stonefather,1.5
-Lava Ball,1.5
+Lava Ball,0
 Mugwump,0.4
 Nogi Smartfist,1.4
 Old Boomy,1.5999999999999999
-Pile of Skulls,2
+Pile of Skulls,0
 Ragnarok,0.5
 Rock-Hurling Giant,0.4
 Signal Fire,1
@@ -67,7 +67,7 @@ Gron's Brew,1.2
 Mogghunter's Brew,1.2
 Narp's Brew,1.2
 Shorty's Brew,1.2
-Binding Irons,2
+Binding Irons,0
 Buzzle,1.4
 Dendrix,1.4
 Draining Touch,1
@@ -79,7 +79,7 @@ Impspector,0.4
 Infurnace,3.05
 Lilithal,1.4
 Malison,1.65
-Misery Exploit,1
+Misery Exploit,0
 Not Finished with You,1
 Rotgrub,1.75
 The Evil Eye,2.5
@@ -89,8 +89,8 @@ Borr Nit's Touch,1.75
 E'e on the Fringes,1.5
 Giants' Bane,1.25
 Gleeful Mayhem,3
-Hysteria,3
-Library of the Damned,1.5
+Hysteria,0
+Library of the Damned,0
 Obsidian Forge,1.5
 Poltergeist,1
 Skullion,0.4
@@ -99,27 +99,27 @@ Soul Fiddle,0.25
 Soulkeeper,1
 Spyyyder,0.4
 Three Fates,1
-A Fair Game,2
-Collar of Subordination,2.5
+A Fair Game,0
+Collar of Subordination,0
 Creeping Oblivion,1
 Eater of the Dead,0.4
 Greater Oxtet,3.7
 Harvest Time,1
-Hecatomb,1.5
-Key to Dis,3
+Hecatomb,0
+Key to Dis,0
 Lesser Oxtet,2.4
 Lord Invidius,2.3499999999999996
 Neffru,0.4
 Noname,1.2
 Onyx Knight,0.4
-Orb of Invidius,0.3
+Orb of Invidius,0
 Ortannu the Chained,0.4
 Sinestra,1.9
 Snag's Mirror,1
 Snaglet,1.05
-Soul Snatcher,1
-Wretched Doll,0.5
-Ortannu's Binding,0.5
+Soul Snatcher,0
+Wretched Doll,0
+Ortannu's Binding,0
 Beasts' Bane,1.25
 Demon's Bane,1
 Dexus,1.9
@@ -128,7 +128,7 @@ Humans' Bane,1.25
 Scientists' Bane,1.25
 Thieves' Bane,1.25
 Babbling Bibliophile,1
-Cutthroat Research,1.5
+Cutthroat Research,0
 Daughter,2.8
 "EDAI Eddie"" 4x4""",3.1999999999999997
 Eyegor,0.4
@@ -140,42 +140,42 @@ Sanitation Engineer,1.4
 Tautau Vapors,2.5
 Thorium Plasmate,2
 Titan Guardian,2.2
-Twin Bolt Emission,2.3
-Wild Wormhole,3
+Twin Bolt Emission,0
+Wild Wormhole,0
 Wormhole Technician,1.7
-Anomaly Exploiter,1
+Anomaly Exploiter,0
 C.AE.N.D.L.E. Unit,3.5
 Code Monkey,2.1999999999999997
 Data Forge,2
 Discombobulator,2
 Dr. Milli,2.6
 Groupthink Tank,2.0999999999999996
-Interdimensional Graft,2
+Interdimensional Graft,0
 Jargogle,0.4
-Memory Chip,1.5
+Memory Chip,0
 Mini Groupthink Tank,1.4
-Positron Bolt,2.5
-Quantum Fingertrap,1
+Positron Bolt,0
+Quantum Fingertrap,0
 Reasembling Automaton,1.2000000000000002
-Remote Access,2
-Seismo-Entangler,1
+Remote Access,0
+Seismo-Entangler,0
 Academy Training,0.75
-Chaos Portal,0.5
-Crazy Killing Machine,1
+Chaos Portal,0
+Crazy Killing Machine,0
 Dysania,0.4
-Entropic Swirl,3
-Fetchdrones,0.5
+Entropic Swirl,0
+Fetchdrones,0
 Hyde,2.3
-Knowledge is Power,1.3
-Master the Theory,1.5
+Knowledge is Power,0
+Master the Theory,0
 Mimic Gel,1.7
 Neutron Shark,0.4
-Pocket Universe,1
+Pocket Universe,0
 Prescriptive Grammarbot,1.7000000000000002
 Replicator,0.4
-Scientifical Hack,1.3
+Scientifical Hack,0
 Self-Bolstering Automata,0.9
-Strange Gizmo,2
+Strange Gizmo,0
 Universal Keylock,3
 Universal Recycle Bin,1.5
 Zenzizenzizenzic,3
@@ -251,38 +251,38 @@ Umbra,0.4
 Yantzee Gang,0.4
 Brend the Fanatic,0.4
 Chain Gang,3.4499999999999997
-Duskrunner,1.5
+Duskrunner,0
 Fidgit,2.3
-Hidden Stash,2.5
+Hidden Stash,0
 Into the Night,0.3
 No Safety in Numbers,2
-Oubliette,1
-Skeleton Key,0.8
-Special Delivery,1.8
+Oubliette,0
+Skeleton Key,0
+Special Delivery,0
 Spike Trap,1.5
 Subtle Chain,2
-Subtle Maul,1
-Too Much to Protect,3.5
+Subtle Maul,0
+Too Much to Protect,0
 Whisper,1.15
-Customs Office,2
+Customs Office,0
 Finch Cloak,1.7999999999999998
 Gambling Den,1
 Hunter or Hunted?,1.7
-Key of Darkness,1
+Key of Darkness,0
 Keyforgery,2
-Lethal Distraction,2
-Longfused Mines,2
+Lethal Distraction,0
+Longfused Mines,0
 Mack the Knife,0.4
 Manchego,2.6999999999999997
-Rigged Lottery,1.5
-Ring of Invisibility,1.3
-Sack of Coins,2
+Rigged Lottery,0
+Ring of Invisibility,0
+Sack of Coins,0
 Scowly Caper,0.4
 Selwyn the Fence,0.4
 Sneklifter,0.4
 The Quiet Anvil,2
 The Shadow Council,2.9
-Treasure Map,2
+Treasure Map,0
 Weasand,1.5
 Brobnar Plant,1.5999999999999999
 Dis Plant,1.5999999999999999
@@ -357,46 +357,46 @@ Deepwood Druid,1
 Ghosthawk,2.6
 Harmonia,1.7999999999999998
 Imprinted Murmook,1.7
-Key Charge,1.5
+Key Charge,0
 Molephin,2
 Musthic Murmook,2.05
-Regrowth,2
+Regrowth,0
 Rustgnawer,0.4
 Song of the Wild,1.5
 Tantadlin,0.4
 The Fittest,1.4
 Unnatural Selection,2.5
 Unsuspecting Prey,1
-Camouflage,1.1
+Camouflage,0
 Fangtooth Cavern,1.5
 Flaxia,0.4
-Fogbank,1.5
+Fogbank,0
 Gebuk,1.9
-Grasping Vines,2
+Grasping Vines,0
 Instrument of Silence,1.2
 Kangaphant,1.4
 Low Dawn,2
 Mab the Mad,2.1
-Mimicry,3
-Nature's Call,4 
+Mimicry,0
+Nature's Call,0
 "Panpaca, Anga",0.4
 "Panpaca, Jaga",0.4
 The Feathered Shaman,1.4
 Wild Spirit,1.5
 Creed of Nature,1.25
 Creed of Nurture,1
-Curiosity,1.5
+Curiosity,0
 Eldest Bear,2.7
 Fuzzy Gruen,0.4
 Giant Gnawbill,2.4
-Gravid Cycle,2
+Gravid Cycle,0
 Inka the Spider,0.4
 Moor Wolf,1.1
 Nepeta Gigantica,0.5
-Perilous Wild,1.5
+Perilous Wild,0
 Piranha Monkeys,0.4
 Po's Pixies,0.4
-Punctuated Equilibrium,3
+Punctuated Equilibrium,0
 Quicksand,1
 Roxador,0.4
 Teliga,0.4

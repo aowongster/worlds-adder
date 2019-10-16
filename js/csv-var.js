@@ -1,4 +1,5 @@
-Name,Aerc Score
+var csvData =
+`Name,Aerc Score
 Alaka,1.3
 Alaka's Brew,1
 Ballcano,0.75
@@ -413,4 +414,4 @@ Orb of Wonder,3
 The Grim Reaper,2.3
 The Red Baron,2.4
 Timequake,2
-Valoocanth,1.5
+Valoocanth,1.5`
