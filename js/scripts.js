@@ -66,9 +66,33 @@ function addToDeckList(card) {
   }
 
   DeckList.push(card);
-  $('.deck-list').append(`<li>${card.Name} ${card["Aerc Score"]}</li>`)
+
+  updateDeckModelView();
+  updateDeckMetaView();
+}
+
+function updateDeckMetaView() {
   computeScore();
   $('.deck-count').text(`(${DeckList.length})`)
+}
+
+function updateDeckModelView() {
+  $('.deck-list').empty();
+  $('.deck-list li').unbind();
+
+  for(var i=0; i<DeckList.length; i++){
+    var card = DeckList[i];
+    $('.deck-list').append(`<li data-index="${i}">${card.Name} ${card["Aerc Score"]}</li>`)
+  }
+
+  $('.deck-list li').click(function () {
+    var cardIndex = $(this).attr('data-index');
+    DeckList.splice(cardIndex, 1);
+    console.log('deleting ', cardIndex);
+
+    updateDeckModelView();
+    updateDeckMetaView();
+  });
 }
 
 function computeScore() {
@@ -79,16 +103,6 @@ function computeScore() {
   }
 
   $('.aerc-score').text(Score.toFixed(2));
-}
-
-// not used
-function populateDeckList() {
-  // lol recreate the whole thing on each add
-  $('.deck-list').empty();
-  for(var i=0; i<DeckList.length; i++) {
-    var card = DeckList[i]
-    $('.deck-list').append(`<li>${card.Name} ${card["Aerc Score"]}</li>`)
-  }
 }
 
 function populateSearchResults() {
@@ -106,7 +120,7 @@ function populateSearchResults() {
       var cardValue = $(this).attr('data-score');
       var localCard = {'Name': cardName, 'Aerc Score': cardValue};
       addToDeckList(localCard);
-    })
+    });
 }
 
 function isAlphaNumeric(code) {
