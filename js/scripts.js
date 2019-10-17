@@ -22,6 +22,7 @@ $('.card-form').submit(function(e) {
 });
 
 $('.card-input').keydown(function(e) {
+  // TODO modify to search input string instead of just... a single char
   var charCode = e.charCode || e.keyCode;
   // search data for matching titles
   if (isAlphaNumeric(charCode)) {
