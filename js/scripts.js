@@ -4,14 +4,7 @@ var SearchResults;
 var Score;
 
 $( document ).ready(function() {
-    console.log( "ready!" );
-    // read flat file into string
-    // $.get('../assets/dok-spoilers-2019-10-14.csv', function(data) {
-      // var worlds_cards = $.csv.toObjects(csvData);
-      // console.log('data loaded');
-    // })
     WorldsCards = $.csv.toObjects(csvData);
-    // console.log(worldsCards);
 });
 
 // clears deck list
@@ -21,27 +14,43 @@ $('.card-form').submit(function(e) {
   clearDeckList();
 });
 
-$('.card-input').keydown(function(e) {
-  // TODO modify to search input string instead of just... a single char
+$('.card-input').keyup(function(e) {
   var charCode = e.charCode || e.keyCode;
-  // search data for matching titles
-  if (isAlphaNumeric(charCode)) {
-    var char = String.fromCharCode(charCode);
-    SearchResults = GetMatchingCards(char);
-    // console.log(SearchResults);
-    populateSearchResults();
-  } else {
-    // console.log('key not alphanumeric')
+  if (isAlphaNumeric(charCode) || charCode === 8) { // hard code backspace
+    var inputText = $('.card-input').val();
+    if (inputText.length > 0) {
+      SearchResults = GetMatchingCardsFromInputString(inputText);
+      populateSearchResults();
+    } else if (inputText.length === 0) {
+      $('.search-list').empty();
+      SearchResults = [];
+    }
+    $('.search-count').text(`(${SearchResults.length})`);
   }
 });
 
+// full string matching for faster lookup
+function GetMatchingCardsFromInputString(str) {
+  var results = [];
+  for (var i = 0; i < csvData.length; i++) {
+    var card = WorldsCards[i];
+    if (typeof card !== 'undefined' && 'Name' in card) {
+      var cardName = WorldsCards[i].Name.toLowerCase();
+      if (cardName.includes(str)) {
+        results.push(WorldsCards[i]);
+      }
+    }
+  }
+  return results;
+}
+
+// matching for single char
 function GetMatchingCards(charPressed) {
   var results = [];
   for(var i=0; i<csvData.length; i++) {
     var card = WorldsCards[i];
     if (typeof card !== 'undefined' && 'Name' in card) {
       var cardFirstLetter = WorldsCards[i].Name.charAt(0);
-      // console.log(cardFirstLetter);
       charPressed = charPressed.toUpperCase();
       if (charPressed == cardFirstLetter) {
           results.push(WorldsCards[i])
@@ -61,6 +70,7 @@ function clearDeckList() {
   Score = 0;
   $('.aerc-score').text(0);
 }
+
 function addToDeckList(card) {
   if (DeckList.length >= 36) {
     return;
